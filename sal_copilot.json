@@ -1,7 +1,7 @@
 {
   "titolo": "Copilot Operatore",
   "data": "10 giugno 2026",
-  "badge": "Testing live in corso",
+  "badge": "Anomalia in produzione — indagine in corso",
   "provider": "Fedro",
   "integrazione": "SuperVision",
   "goLive": "TBD",
@@ -40,19 +40,19 @@
   "sommario": [
     {
       "colore": "#639922",
-      "testo": "Copilot Operatore andato online in produzione con gli operatori pilota selezionati."
+      "testo": "Copilot online in produzione con gli operatori pilota selezionati."
+    },
+    {
+      "colore": "#E24B4A",
+      "testo": "Anomalia rilevata: i suggerimenti non compaiono nelle dashboard degli operatori abilitati. Indagine in corso."
     },
     {
       "colore": "#BA7517",
-      "testo": "Fase di testing live in corso: Pasqualina Distefano, Pasquale Montuori, Grazia Lombardo, Miriam Pace, Claudia Guerra, Manola Isolani."
+      "testo": "Testing live sospeso in attesa di risoluzione. Focus su identificazione causa root."
     },
     {
       "colore": "#378ADD",
-      "testo": "Focus su latenza dei suggerimenti e raccolta feedback strutturato dagli operatori."
-    },
-    {
-      "colore": "#378ADD",
-      "testo": "Rollout esteso ad altri operatori subordinato ai risultati del pilota."
+      "testo": "Rollout esteso bloccato fino a risoluzione dell'anomalia."
     }
   ],
   "roadmap": [
@@ -136,7 +136,7 @@
     {
       "stato": "warn",
       "titolo": "Test di latenza in fase pilota",
-      "note": "In corso durante testing live"
+      "note": "Sospeso — anomalia in corso"
     },
     {
       "stato": "todo",
@@ -146,7 +146,7 @@
     {
       "stato": "warn",
       "titolo": "Raccolta feedback operatori pilota",
-      "note": "In corso — operatori pilota attivi"
+      "note": "Sospeso — i suggerimenti non compaiono nelle dashboard"
     },
     {
       "stato": "todo",
@@ -155,6 +155,11 @@
     }
   ],
   "rischi": [
+    {
+      "livello": "alto",
+      "titolo": "Suggerimenti non visibili nelle dashboard operatori",
+      "desc": "Anomalia critica rilevata in produzione: i messaggi del Copilot non compaiono nelle dashboard degli operatori abilitati. Indagine in corso con IS e Fedro."
+    },
     {
       "livello": "alto",
       "titolo": "Latenza suggerimenti da monitorare",
@@ -187,6 +192,12 @@
     }
   ],
   "azioni": [
+    {
+      "owner": "IS+Fedro",
+      "testo": "Investigare e risolvere anomalia: suggerimenti Copilot non visibili nelle dashboard operatori pilota",
+      "scadenza": "Urgente",
+      "priorita": "alta"
+    },
     {
       "owner": "IS+Fedro",
       "testo": "Monitorare latenza suggerimenti durante testing live",
