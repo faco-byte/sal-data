@@ -1,1 +1,233 @@
-{"titolo":"Copilot Operatore","data":"9 giugno 2026","badge":"Verifica funzionale in staging","provider":"Fedro","integrazione":"SuperVision","goLive":"TBD","links":[{"label":"Knowledge base Copilot","url":"https://docs.google.com/spreadsheets/d/1Y5ZnxmHf_bp8b5hdu91VaX67NftlFjV8Bj0O6-k-rz8/edit?gid=0#gid=0","note":"Casistiche e suggerimenti"}],"kpi":[{"label":"Operatori attivi","valore":null,"unit":"%","note":"% operatori che usano i suggerimenti","color":"#185FA5"},{"label":"Suggerimenti accettati","valore":null,"unit":"%","note":"% accettati sul totale erogati","color":"#3B6D11"},{"label":"Suggerimenti erogati","valore":null,"unit":"","chiamate":null,"media":null,"note":"Totale suggerimenti su totale chiamate","color":"#854F0B"}],"sommario":[{"colore":"#639922","testo":"Demo completate, integrazione operativa."},{"colore":"#BA7517","testo":"Verifica funzionale in staging in corso. Focus sulla stabilit\u00e0 e non interferenza con SuperVision."},{"colore":"#378ADD","testo":"Test di latenza rimandati alla fase pilota in produzione."},{"colore":"#378ADD","testo":"Pilota produzione \u2192 rollout progressivo dopo feedback operatori."}],"roadmap":[{"name":"Demo in piattaforma Fedro","note":"Valutazione qualit\u00e0 suggerimenti","stato":"done"},{"name":"Feedback su demo","note":"Input inviati a Fedro per raffinamento modello","stato":"done"},{"name":"Rilascio frame su SuperVision","note":"Integrazione tecnica operativa","stato":"done"},{"name":"Sviluppo logiche di visualizzazione","note":"Filtro per operatore e campagna","stato":"done"},{"name":"Deploy in staging","note":"Completato","stato":"done"},{"name":"Verifica funzionale in staging","note":"Test stabilit\u00e0 \u2014 nessun impatto su SuperVision","stato":"current"},{"name":"Deploy in produzione + pilota","note":"Test latenza + raccolta feedback operatori","stato":"todo"},{"name":"Rollout esteso","note":"Diffusione ad altri operatori sulla base dei risultati pilota","stato":"todo"}],"deliverables":[{"stato":"ok","titolo":"Demo in piattaforma Fedro","note":"Completata"},{"stato":"ok","titolo":"Raccolta feedback su demo","note":"Completata \u2014 input inviati a Fedro"},{"stato":"ok","titolo":"Accesso frame Fedro per pubblicazione su SuperVision","note":"Rilasciato"},{"stato":"ok","titolo":"Sviluppo logiche di visualizzazione per operatore/campagna","note":"Completato"},{"stato":"current","titolo":"Deploy in staging","note":"Completato \u2014 staging attivo"},{"stato":"warn","titolo":"Verifica funzionale in staging","note":"In corso \u2014 focus stabilit\u00e0 e non interferenza con SuperVision"},{"stato":"warn","titolo":"Selezione operatori pilota e briefing","note":"Da formalizzare"},{"stato":"todo","titolo":"Test di latenza in fase pilota","note":"To do \u2014 rimandato alla fase pilota"},{"stato":"todo","titolo":"Deploy in produzione + avizio fase pilota","note":"To do"},{"stato":"todo","titolo":"Raccolta feedback operatori pilota","note":"To do"},{"stato":"todo","titolo":"Rollout esteso ad altri operatori","note":"To do"}],"rischi":[{"livello":"alto","titolo":"Impatto su SuperVision durante staging","desc":"Bloccante per go-live. La verifica deve confermare che il frame Fedro non interferisce con SuperVision."},{"livello":"alto","titolo":"Latenza suggerimenti da validare in pilota","desc":"Rimandato alla fase pilota. Se elevata richieder\u00e0 ottimizzazione prima del rollout."},{"livello":"alto","titolo":"Feedback pilota non strutturati","desc":"Senza template standard il tuning del modello Fedro rischia di basarsi su impressioni."},{"livello":"medio","titolo":"Dipendenza da Fedro per aggiornamenti","desc":"I tempi di risposta del provider possono allungare i cicli di miglioramento."},{"livello":"medio","titolo":"Adozione operatori \u2014 resistenza al cambiamento","desc":"Necessario onboarding mirato e coinvolgimento dei team leader."},{"livello":"medio","titolo":"KPI adoption senza baseline","desc":"I valori del pilota saranno difficili da interpretare senza riferimento atteso."}],"azioni":[{"owner":"IS+Fedro","testo":"Eseguire verifica funzionale in staging: nessun impatto su SuperVision","scadenza":"In corso","priorita":"alta"},{"owner":"IS","testo":"Strutturare template di raccolta feedback operatori pilota","scadenza":"Prima del deploy in produzione","priorita":"alta"},{"owner":"IS","testo":"Formalizzare selezione operatori pilota (numero, criteri, campagne)","scadenza":"Prima del go-live produzione","priorita":"media"},{"owner":"IS","testo":"Definire soglie accettabili di latenza da misurare in pilota","scadenza":"Prima del go-live produzione","priorita":"media"},{"owner":"IS","testo":"Definire target attesi per i KPI adoption","scadenza":"Prima del go-live produzione","priorita":"media"},{"owner":"IS+Fedro","testo":"Pianificare primo ciclo di tuning modello post-pilota","scadenza":"Post pilota produzione","priorita":"media"},{"owner":"IS","testo":"Preparare materiale di onboarding per operatori","scadenza":"Prima del go-live produzione","priorita":"media"}]}
+{
+  "titolo": "Copilot Operatore",
+  "data": "10 giugno 2026",
+  "badge": "In attesa di messa in produzione",
+  "provider": "Fedro",
+  "integrazione": "SuperVision",
+  "goLive": "TBD",
+  "links": [
+    {
+      "label": "Knowledge base Copilot",
+      "url": "https://docs.google.com/spreadsheets/d/1Y5ZnxmHf_bp8b5hdu91VaX67NftlFjV8Bj0O6-k-rz8/edit?gid=0#gid=0",
+      "note": "Casistiche e suggerimenti"
+    }
+  ],
+  "kpi": [
+    {
+      "label": "Operatori attivi",
+      "valore": null,
+      "unit": "%",
+      "note": "% operatori che usano i suggerimenti",
+      "color": "#185FA5"
+    },
+    {
+      "label": "Suggerimenti accettati",
+      "valore": null,
+      "unit": "%",
+      "note": "% accettati sul totale erogati",
+      "color": "#3B6D11"
+    },
+    {
+      "label": "Suggerimenti erogati",
+      "valore": null,
+      "unit": "",
+      "chiamate": null,
+      "media": null,
+      "note": "Totale suggerimenti su totale chiamate",
+      "color": "#854F0B"
+    }
+  ],
+  "sommario": [
+    {
+      "colore": "#639922",
+      "testo": "Verifica funzionale in staging completata con successo. Nessun impatto su SuperVision."
+    },
+    {
+      "colore": "#BA7517",
+      "testo": "In attesa che Fedro metta in whitelist alcuni IP di SuperVision prima del deploy in produzione."
+    },
+    {
+      "colore": "#378ADD",
+      "testo": "Operatori pilota selezionati: Pasqualina Distefano, Pasquale Montuori, Grazia Lombardo, Miriam Pace, Claudia Guerra, Manola Isolani."
+    },
+    {
+      "colore": "#378ADD",
+      "testo": "Go-live in produzione subordinato alla whitelist IP — rollout progressivo post feedback pilota."
+    }
+  ],
+  "roadmap": [
+    {
+      "name": "Demo in piattaforma Fedro",
+      "note": "Valutazione qualità suggerimenti",
+      "stato": "done"
+    },
+    {
+      "name": "Feedback su demo",
+      "note": "Input inviati a Fedro per raffinamento modello",
+      "stato": "done"
+    },
+    {
+      "name": "Rilascio frame su SuperVision",
+      "note": "Integrazione tecnica operativa",
+      "stato": "done"
+    },
+    {
+      "name": "Sviluppo logiche di visualizzazione",
+      "note": "Filtro per operatore e campagna",
+      "stato": "done"
+    },
+    {
+      "name": "Deploy in staging",
+      "note": "Completato",
+      "stato": "done"
+    },
+    {
+      "name": "Verifica funzionale in staging",
+      "note": "Completata — nessun impatto su SuperVision",
+      "stato": "done"
+    },
+    {
+      "name": "Deploy in produzione + pilota",
+      "note": "In attesa whitelist IP da Fedro — operatori pilota definiti",
+      "stato": "current"
+    },
+    {
+      "name": "Rollout esteso",
+      "note": "Diffusione ad altri operatori sulla base dei risultati pilota",
+      "stato": "todo"
+    }
+  ],
+  "deliverables": [
+    {
+      "stato": "ok",
+      "titolo": "Demo in piattaforma Fedro",
+      "note": "Completata"
+    },
+    {
+      "stato": "ok",
+      "titolo": "Raccolta feedback su demo",
+      "note": "Completata — input inviati a Fedro"
+    },
+    {
+      "stato": "ok",
+      "titolo": "Accesso frame Fedro per pubblicazione su SuperVision",
+      "note": "Rilasciato"
+    },
+    {
+      "stato": "ok",
+      "titolo": "Sviluppo logiche di visualizzazione per operatore/campagna",
+      "note": "Completato"
+    },
+    {
+      "stato": "current",
+      "titolo": "Deploy in staging",
+      "note": "Completato — staging attivo"
+    },
+    {
+      "stato": "ok",
+      "titolo": "Verifica funzionale in staging",
+      "note": "Completata — nessun impatto su SuperVision"
+    },
+    {
+      "stato": "ok",
+      "titolo": "Selezione operatori pilota e briefing",
+      "note": "Operatori pilota: Pasqualina Distefano, Pasquale Montuori, Grazia Lombardo, Miriam Pace, Claudia Guerra, Manola Isolani"
+    },
+    {
+      "stato": "todo",
+      "titolo": "Test di latenza in fase pilota",
+      "note": "To do — rimandato alla fase pilota"
+    },
+    {
+      "stato": "todo",
+      "titolo": "Deploy in produzione + avizio fase pilota",
+      "note": "To do"
+    },
+    {
+      "stato": "todo",
+      "titolo": "Raccolta feedback operatori pilota",
+      "note": "To do"
+    },
+    {
+      "stato": "todo",
+      "titolo": "Rollout esteso ad altri operatori",
+      "note": "To do"
+    }
+  ],
+  "rischi": [
+    {
+      "livello": "alto",
+      "titolo": "Whitelist IP SuperVision da completare",
+      "desc": "Il deploy in produzione è bloccato in attesa che Fedro aggiunga gli IP di SuperVision alla whitelist. Rischio di slittamento go-live."
+    },
+    {
+      "livello": "alto",
+      "titolo": "Latenza suggerimenti da validare in pilota",
+      "desc": "Rimandato alla fase pilota. Se elevata richiederà ottimizzazione prima del rollout."
+    },
+    {
+      "livello": "alto",
+      "titolo": "Feedback pilota non strutturati",
+      "desc": "Senza template standard il tuning del modello Fedro rischia di basarsi su impressioni."
+    },
+    {
+      "livello": "medio",
+      "titolo": "Dipendenza da Fedro per aggiornamenti",
+      "desc": "I tempi di risposta del provider possono allungare i cicli di miglioramento."
+    },
+    {
+      "livello": "medio",
+      "titolo": "Adozione operatori — resistenza al cambiamento",
+      "desc": "Necessario onboarding mirato e coinvolgimento dei team leader."
+    },
+    {
+      "livello": "medio",
+      "titolo": "KPI adoption senza baseline",
+      "desc": "I valori del pilota saranno difficili da interpretare senza riferimento atteso."
+    }
+  ],
+  "azioni": [
+    {
+      "owner": "Fedro",
+      "testo": "Attendere whitelist IP SuperVision da Fedro per procedere con deploy in produzione",
+      "scadenza": "In attesa risposta Fedro",
+      "priorita": "alta"
+    },
+    {
+      "owner": "IS",
+      "testo": "Strutturare template di raccolta feedback operatori pilota",
+      "scadenza": "Prima del deploy in produzione",
+      "priorita": "alta"
+    },
+    {
+      "owner": "IS",
+      "testo": "Formalizzare selezione operatori pilota (numero, criteri, campagne)",
+      "scadenza": "Prima del go-live produzione",
+      "priorita": "media"
+    },
+    {
+      "owner": "IS",
+      "testo": "Definire soglie accettabili di latenza da misurare in pilota",
+      "scadenza": "Prima del go-live produzione",
+      "priorita": "media"
+    },
+    {
+      "owner": "IS",
+      "testo": "Definire target attesi per i KPI adoption",
+      "scadenza": "Prima del go-live produzione",
+      "priorita": "media"
+    },
+    {
+      "owner": "IS+Fedro",
+      "testo": "Pianificare primo ciclo di tuning modello post-pilota",
+      "scadenza": "Post pilota produzione",
+      "priorita": "media"
+    },
+    {
+      "owner": "IS",
+      "testo": "Preparare materiale di onboarding per operatori",
+      "scadenza": "Prima del go-live produzione",
+      "priorita": "media"
+    }
+  ]
+}
