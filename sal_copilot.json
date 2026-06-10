@@ -1,7 +1,7 @@
 {
   "titolo": "Copilot Operatore",
   "data": "10 giugno 2026",
-  "badge": "In attesa di messa in produzione",
+  "badge": "Testing live in corso",
   "provider": "Fedro",
   "integrazione": "SuperVision",
   "goLive": "TBD",
@@ -40,19 +40,19 @@
   "sommario": [
     {
       "colore": "#639922",
-      "testo": "Verifica funzionale in staging completata con successo. Nessun impatto su SuperVision."
+      "testo": "Copilot Operatore andato online in produzione con gli operatori pilota selezionati."
     },
     {
       "colore": "#BA7517",
-      "testo": "In attesa che Fedro metta in whitelist alcuni IP di SuperVision prima del deploy in produzione."
+      "testo": "Fase di testing live in corso: Pasqualina Distefano, Pasquale Montuori, Grazia Lombardo, Miriam Pace, Claudia Guerra, Manola Isolani."
     },
     {
       "colore": "#378ADD",
-      "testo": "Operatori pilota selezionati: Pasqualina Distefano, Pasquale Montuori, Grazia Lombardo, Miriam Pace, Claudia Guerra, Manola Isolani."
+      "testo": "Focus su latenza dei suggerimenti e raccolta feedback strutturato dagli operatori."
     },
     {
       "colore": "#378ADD",
-      "testo": "Go-live in produzione subordinato alla whitelist IP — rollout progressivo post feedback pilota."
+      "testo": "Rollout esteso ad altri operatori subordinato ai risultati del pilota."
     }
   ],
   "roadmap": [
@@ -88,13 +88,13 @@
     },
     {
       "name": "Deploy in produzione + pilota",
-      "note": "In attesa whitelist IP da Fedro — operatori pilota definiti",
-      "stato": "current"
+      "note": "Completato — Copilot online in produzione",
+      "stato": "done"
     },
     {
       "name": "Rollout esteso",
-      "note": "Diffusione ad altri operatori sulla base dei risultati pilota",
-      "stato": "todo"
+      "note": "In attesa risultati fase pilota",
+      "stato": "current"
     }
   ],
   "deliverables": [
@@ -134,9 +134,9 @@
       "note": "Operatori pilota: Pasqualina Distefano, Pasquale Montuori, Grazia Lombardo, Miriam Pace, Claudia Guerra, Manola Isolani"
     },
     {
-      "stato": "todo",
+      "stato": "warn",
       "titolo": "Test di latenza in fase pilota",
-      "note": "To do — rimandato alla fase pilota"
+      "note": "In corso durante testing live"
     },
     {
       "stato": "todo",
@@ -144,9 +144,9 @@
       "note": "To do"
     },
     {
-      "stato": "todo",
+      "stato": "warn",
       "titolo": "Raccolta feedback operatori pilota",
-      "note": "To do"
+      "note": "In corso — operatori pilota attivi"
     },
     {
       "stato": "todo",
@@ -157,8 +157,8 @@
   "rischi": [
     {
       "livello": "alto",
-      "titolo": "Whitelist IP SuperVision da completare",
-      "desc": "Il deploy in produzione è bloccato in attesa che Fedro aggiunga gli IP di SuperVision alla whitelist. Rischio di slittamento go-live."
+      "titolo": "Latenza suggerimenti da monitorare",
+      "desc": "In fase di testing live. Se elevata richiederà ottimizzazione prima del rollout esteso."
     },
     {
       "livello": "alto",
@@ -188,9 +188,9 @@
   ],
   "azioni": [
     {
-      "owner": "Fedro",
-      "testo": "Attendere whitelist IP SuperVision da Fedro per procedere con deploy in produzione",
-      "scadenza": "In attesa risposta Fedro",
+      "owner": "IS+Fedro",
+      "testo": "Monitorare latenza suggerimenti durante testing live",
+      "scadenza": "In corso",
       "priorita": "alta"
     },
     {
