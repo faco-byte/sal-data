@@ -1,8 +1,8 @@
 {
-  "date": "5 giugno 2026",
+  "date": "15 giugno 2026",
   "fase": "F1 — MVP",
-  "avanzamento": 82,
-  "consegnaStimata": "Fine settimana 13–14 giu",
+  "avanzamento": 90,
+  "consegnaStimata": "In testing esteso",
   "ritardo": "+4 sett.",
   "deliverables": [
     { "stato": "ok", "titolo": "API SuperVision + credenziali", "note": "Consegnato ✓" },
@@ -13,48 +13,47 @@
     { "stato": "ok", "titolo": "Account Apple Developer (aggiornamento nome + rinnovo)", "note": "Consegnato ✓" },
     { "stato": "ok", "titolo": "Account Google Play", "note": "Consegnato ✓" },
     { "stato": "ok", "titolo": "Conferma formale: scoring bolletta fuori da F1", "note": "Confermato ✓ — comunicato formalmente a Comparetech" },
-    { "stato": "ok", "titolo": "Build parziale ricevuta da CT", "note": "Ricevuta il 5/06 ✓ — build completa per beta tester attesa entro fine settimana 13–14/06" },
+    { "stato": "ok", "titolo": "Build parziale ricevuta da CT", "note": "Ricevuta il 5/06 ✓" },
+    { "stato": "ok", "titolo": "Build in testing esteso rilasciata", "note": "✓ Rilasciata — feedback richiesto entro venerdì. Registro bug: docs.google.com/spreadsheets/d/1QO6niGV7D2JTIAuQCXynaKGYXOn0hpV1" },
     { "stato": "progress", "titolo": "T&C / contenuti profilo per Comparetech", "note": "Non bloccante — Comparetech usa placeholder in attesa del testo definitivo" },
     { "stato": "warn", "titolo": "Schema DB tariffe + tempistiche integrazione", "note": "Da definire con Andrea Ortu — nessuna data confermata" },
     { "stato": "warn", "titolo": "Lista beta tester (30–50)", "note": "Modulo attivo (forms.gle/GVNJ1FHgUDhXEMMN7) — lista non ancora consolidata" },
-    { "stato": "warn", "titolo": "Registrazione device TestFlight", "note": "In attesa di build completa per procedere" },
     { "stato": "err", "titolo": "DPA / nomina Comparetech come responsabile del trattamento", "note": "🚨 Bloccante pre go-live — le bollette transitano sull'OCR CT (Art. 28 GDPR). DPA non ancora firmato. Da sbloccare subito." }
   ],
   "rischi": [
     { "livello": "alto", "titolo": "DPA non firmato prima del go-live — rischio GDPR diretto", "desc": "Le bollette degli utenti (CF, IBAN, consumi, indirizzi) transitano sui sistemi OCR di Comparetech. CT è responsabile del trattamento ex Art. 28 GDPR. Distribuire l'app senza DPA firmato espone IS a responsabilità diretta. Va formalizzato prima del go-live F1, non dopo." },
-    { "livello": "alto", "titolo": "Build completa per beta tester attesa 13–14/06 — nessuna demo end-to-end", "desc": "La build ricevuta il 5/06 è parziale. Quella completa arriva fine settimana prossima. F1 rimane in finestra di validazione, non chiuso. Testabilità della build attuale da verificare." },
     { "livello": "alto", "titolo": "Gantt ribasato accettato senza riserve scritte", "desc": "IS ha risposto prendendo atto del T0=11/05 senza preservare per iscritto il riferimento contrattuale del 15/04. Riduce la leva sul pagamento milestone F1 (€12.000)." },
     { "livello": "medio", "titolo": "Schema DB tariffe ancora aperto — comprime F2", "desc": "Senza schema e tempistiche da Andrea Ortu, Comparetech non può avviare F2 in parallelo. Go-live F2 (originale: 17 giu–8 lug) a forte rischio slittamento." },
-    { "livello": "medio", "titolo": "Beta tester non ancora consolidati", "desc": "Il modulo è attivo ma la lista (target 30–50) non è pronta. Rischio ritardo sull'avvio del beta testing anche dopo ricezione build completa." }
+    { "livello": "medio", "titolo": "Feedback testing entro venerdì — rischio bug bloccanti", "desc": "La build è in testing esteso con feedback richiesto entro venerdì. Bug critici emersi potrebbero slittare la chiusura F1 e il pagamento milestone (€12.000)." }
   ],
   "azioni": [
     { "owner": "IS+CT", "testo": "Avviare formalmente DPA / nomina responsabile trattamento (Comparetech per OCR bollette)", "scadenza": "Prima del go-live F1", "priorita": "alta" },
-    { "owner": "IS", "testo": "Verificare testabilità build parziale ricevuta il 5/06 (piattaforme, flussi disponibili)", "scadenza": "8 giu 2026", "priorita": "alta" },
-    { "owner": "CT", "testo": "Consegnare build completa per beta tester", "scadenza": "13–14 giu 2026", "priorita": "alta" },
+    { "owner": "IS", "testo": "Raccogliere e inviare feedback testing su registro bug", "scadenza": "Venerdì 20 giu 2026", "priorita": "alta" },
     { "owner": "IS", "testo": "Chiudere schema DB tariffe con Andrea Ortu e comunicarlo a CT", "scadenza": "ASAP", "priorita": "media" },
     { "owner": "IS+CT", "testo": "Aggiornare Gantt nel prossimo weekly", "scadenza": "Prossimo SAL", "priorita": "media" },
-    { "owner": "IS", "testo": "Consolidare lista beta tester (target 30–50)", "scadenza": "10 giu 2026", "priorita": "media" },
+    { "owner": "IS", "testo": "Consolidare lista beta tester (target 30–50)", "scadenza": "ASAP", "priorita": "media" },
     { "owner": "CT", "testo": "Demo end-to-end flusso completo", "scadenza": "Weekly F1 closure", "priorita": "bassa" }
   ],
   "fasi": [
-    { "nome": "F1 MVP", "pct": 82, "stato": "Ritardo", "color": "#16a34a" },
+    { "nome": "F1 MVP", "pct": 90, "stato": "Testing", "color": "#16a34a" },
     { "nome": "F2 Offerte", "pct": 0, "stato": "In attesa", "color": "#2563eb" },
     { "nome": "F3 Fedeltà", "pct": 0, "stato": "In attesa", "color": "#7c3aed" }
   ],
   "links": [
     { "label": "Modulo Beta Tester", "url": "https://forms.gle/GVNJ1FHgUDhXEMMN7" },
-    { "label": "Bug Tracker Google Sheet", "url": "https://docs.google.com/spreadsheets/d/1AwslR8-uJ5gKo4jKR0pLNisXs5FOfjBxZ26VmTTZpvQ/edit" }
+    { "label": "Bug Tracker Google Sheet", "url": "https://docs.google.com/spreadsheets/d/1AwslR8-uJ5gKo4jKR0pLNisXs5FOfjBxZ26VmTTZpvQ/edit" },
+    { "label": "Registro Bug Segnalazioni", "url": "https://docs.google.com/spreadsheets/d/1QO6niGV7D2JTIAuQCXynaKGYXOn0hpV1/edit?gid=957519043#gid=957519043" }
   ],
   "gantt": [
-    { "fase": "F1 — MVP", "color": "#16a34a", "colorLight": "#dcfce7", "baseline": { "inizio": "15 apr", "fine": "20 mag" }, "revised": { "inizio": "11 mag", "fine": "12 giu" }, "stato": "Ritardo", "statoColor": "#a16207", "statoBg": "#fef9c3", "startWeek": 0, "durationBaseline": 5, "durationRevised": 8, "avanzamento": 82 },
-    { "fase": "F2 — Offerte + Switch", "color": "#2563eb", "colorLight": "#dbeafe", "baseline": { "inizio": "21 mag", "fine": "8 lug" }, "revised": { "inizio": "13 giu", "fine": "5 ago" }, "stato": "In attesa", "statoColor": "#1d4ed8", "statoBg": "#dbeafe", "startWeek": 5, "durationBaseline": 7, "durationRevised": 7, "avanzamento": 0 },
-    { "fase": "F3 — Fedeltà + Analytics", "color": "#7c3aed", "colorLight": "#ede9fe", "baseline": { "inizio": "9 lug", "fine": "5 ago" }, "revised": { "inizio": "6 ago", "fine": "2 set" }, "stato": "In attesa", "statoColor": "#6d28d9", "statoBg": "#ede9fe", "startWeek": 12, "durationBaseline": 4, "durationRevised": 4, "avanzamento": 0 }
+    { "fase": "F1 — MVP", "color": "#16a34a", "colorLight": "#dcfce7", "baseline": { "inizio": "15 apr", "fine": "20 mag" }, "revised": { "inizio": "11 mag", "fine": "20 giu" }, "stato": "Testing", "statoColor": "#a16207", "statoBg": "#fef9c3", "startWeek": 0, "durationBaseline": 5, "durationRevised": 10, "avanzamento": 90 },
+    { "fase": "F2 — Offerte + Switch", "color": "#2563eb", "colorLight": "#dbeafe", "baseline": { "inizio": "21 mag", "fine": "8 lug" }, "revised": { "inizio": "21 giu", "fine": "12 ago" }, "stato": "In attesa", "statoColor": "#1d4ed8", "statoBg": "#dbeafe", "startWeek": 5, "durationBaseline": 7, "durationRevised": 7, "avanzamento": 0 },
+    { "fase": "F3 — Fedeltà + Analytics", "color": "#7c3aed", "colorLight": "#ede9fe", "baseline": { "inizio": "9 lug", "fine": "5 ago" }, "revised": { "inizio": "13 ago", "fine": "9 set" }, "stato": "In attesa", "statoColor": "#6d28d9", "statoBg": "#ede9fe", "startWeek": 12, "durationBaseline": 4, "durationRevised": 4, "avanzamento": 0 }
   ],
   "sommario": [
+    { "emoji": "🟡", "testo": "<strong>Build in testing esteso — feedback richiesto entro venerdì.</strong> La build è stata rilasciata ai tester. Segnalare i bug sul <a href='https://docs.google.com/spreadsheets/d/1QO6niGV7D2JTIAuQCXynaKGYXOn0hpV1/edit?gid=957519043#gid=957519043' target='_blank'>Registro Bug</a>. Bug critici potrebbero slittare la chiusura F1." },
     { "emoji": "🔴", "testo": "<strong>DPA non firmato prima del go-live — rischio GDPR diretto.</strong> Le bollette degli utenti (CF, IBAN, consumi, indirizzi) transitano sui sistemi OCR di Comparetech. CT è responsabile del trattamento ex Art. 28 GDPR. Va formalizzato prima del go-live F1." },
-    { "emoji": "🔴", "testo": "<strong>Build completa per beta tester attesa 13–14/06.</strong> Il 5/06 è arrivata una build parziale. Quella completa arriva fine settimana prossima. F1 rimane in validazione, non chiuso. Da verificare: cosa include la build attuale? È testabile? Su quali piattaforme?" },
     { "emoji": "🔴", "testo": "<strong>Gantt ribasato accettato senza riserve scritte.</strong> IS ha preso atto del T0=11/05 senza preservare per iscritto il riferimento contrattuale del 15/04. Riduce la leva sul pagamento milestone F1 (€12.000)." },
     { "emoji": "⚠️", "testo": "<strong>DB tariffe ancora aperto — comprime F2.</strong> Schema da chiudere con Andrea Ortu. Senza tempistiche confermate Comparetech non può avviare F2 in parallelo." },
-    { "emoji": "🟢", "testo": "<strong>9 deliverable IS su 14 chiusi.</strong> Build parziale ricevuta. Modulo beta tester attivo, Bug Tracker pronto. Account Apple e Google Play operativi." }
+    { "emoji": "🟢", "testo": "<strong>10 deliverable su 14 chiusi.</strong> Build in testing esteso. Registro bug attivo. Account Apple e Google Play operativi." }
   ]
 }
