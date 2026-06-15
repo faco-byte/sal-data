@@ -100,6 +100,12 @@
   ],
   "azioni": [
     {
+      "owner": "IS",
+      "testo": "Comerci — Creazione workspace/progetti di test: (1) progetto test default, (2) progetto test con codice provider",
+      "scadenza": "ASAP",
+      "priorita": "alta"
+    },
+    {
       "owner": "IS+CT",
       "testo": "Avviare formalmente DPA / nomina responsabile trattamento (Comparetech per OCR bollette)",
       "scadenza": "Prima del go-live F1",
