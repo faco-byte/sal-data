@@ -101,7 +101,7 @@
   "azioni": [
     {
       "owner": "IS",
-      "testo": "Comerci — Creazione workspace/progetti di test: (1) progetto test default, (2) progetto test con codice provider",
+      "testo": "Comerci — Creazione webservice/progetti di test: (1) progetto test default, (2) progetto test con codice provider",
       "scadenza": "ASAP",
       "priorita": "alta"
     },
