@@ -15,7 +15,7 @@
     },
     {
       "emoji": "🔍",
-      "testo": "Stato implementazione: la catena tecnica è in produzione da febbraio 2026 (confermato da Ortu). Il gap aperto è il test anti-spam su iPhone, responsabilità di Kida — non è chiaro se sia mai stato eseguito."
+      "testo": "Stato implementazione: la catena tecnica è in produzione da febbraio 2026 (confermato da Andrea Ortu, call 18 giu). Il gap aperto è il test anti-spam su iPhone, responsabilità di Kida — non è chiaro se sia mai stato eseguito."
     },
     {
       "emoji": "⚠️",
@@ -26,8 +26,8 @@
       "testo": "Priorità alta — va risolto il prima possibile. Stefano conosce poco il progetto: maggiore autonomia operativa richiesta a Fabrizio."
     },
     {
-      "emoji": "✅",
-      "testo": "Flusso tecnico confermato da Andrea Ortu (call 18 giu): URL originale → comparasemplice.it/?t=... → shorturl.gg/... → comparasemplice.it/carica → algoritmo di risoluzione → URL finale. In produzione da febbraio 2026."
+      "emoji": "🔗",
+      "testo": "Flusso tecnico confermato: URL originale → comparasemplice.it/?t=... → shorturl.gg/... → comparasemplice.it/carica → algoritmo di risoluzione → URL finale."
     }
   ],
   "kpi": [
@@ -61,9 +61,9 @@
     },
     {
       "nome": "Soluzione concordata con Link Mobility",
-      "stato": "Completato",
-      "pct": 100,
-      "color": "#22c55e"
+      "stato": "In corso",
+      "pct": 70,
+      "color": "#f59e0b"
     },
     {
       "nome": "Ricognizione stato attuale",
@@ -215,7 +215,7 @@
     },
     {
       "nome": "Andrea Ortu",
-      "ruolo": "Sviluppatore (ex)",
+      "ruolo": "Sviluppatore",
       "note": "Ha sviluppato la catena tecnica del doppio short URL. Confermato funzionante da febbraio 2026. Non coinvolto nel test anti-spam.",
       "tag": "AO"
     }
@@ -234,7 +234,7 @@
     {
       "data": "18 giu 2026",
       "autore": "Fabrizio Comerci",
-      "testo": "Call con Andrea Ortu: confermato che la catena tecnica (comparasemplice.it → shorturl.gg → comparasemplice.it/carica) è in produzione da febbraio 2026 e funziona correttamente. Il test di efficacia anti-spam su iPhone era delegato a Kida — non è chiaro se sia mai stato eseguito. Shortener esterno: shorturl.gg."
+      "testo": "Call con Andrea Ortu: catena tecnica (comparasemplice.it → shorturl.gg → comparasemplice.it/carica) in produzione da febbraio 2026, funzionante. Il test anti-spam su iPhone era delegato a Kida — non è chiaro se sia mai stato eseguito. Shortener esterno: shorturl.gg."
     }
   ],
   "gantt": [
