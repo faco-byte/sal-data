@@ -91,9 +91,9 @@
       "note": "Richiesto da CT — servono: indirizzo mittente, sender name, SMTP server, porta, username, password"
     },
     {
-      "stato": "warn",
+      "stato": "ok",
       "titolo": "Dominio (anche terzo livello) per web app preview",
-      "note": "Richiesto da CT — da decidere dove caricare la web app in preview"
+      "note": "Confermato ✓ — beta.semplice.it. Da comunicare a CT e configurare DNS."
     }
   ],
   "rischi": [
@@ -127,7 +127,7 @@
     },
     {
       "owner": "IS",
-      "testo": "Decidere e comunicare a CT il dominio (anche terzo livello) per caricare la web app in preview",
+      "testo": "Configurare DNS per beta.semplice.it e comunicare il dominio a CT",
       "scadenza": "ASAP",
       "priorita": "alta"
     },
