@@ -14,8 +14,8 @@
       "testo": "Soluzione individuata con Link Mobility: double short URL (shortlizzare due volte la URL nell'SMS) per abbattere drasticamente il tasso di spam."
     },
     {
-      "emoji": "❓",
-      "testo": "Stato implementazione incerto: non è chiaro se la soluzione sia stata già implementata parzialmente o solo sperimentata. Beniamino potrebbe avere una prima versione."
+      "emoji": "🔍",
+      "testo": "Stato implementazione: la catena tecnica è in produzione da febbraio 2026 (confermato da Ortu). Il gap aperto è il test anti-spam su iPhone, responsabilità di Kida — non è chiaro se sia mai stato eseguito."
     },
     {
       "emoji": "⚠️",
@@ -24,6 +24,10 @@
     {
       "emoji": "📌",
       "testo": "Priorità alta — va risolto il prima possibile. Stefano conosce poco il progetto: maggiore autonomia operativa richiesta a Fabrizio."
+    },
+    {
+      "emoji": "✅",
+      "testo": "Flusso tecnico confermato da Andrea Ortu (call 18 giu): URL originale → comparasemplice.it/?t=... → shorturl.gg/... → comparasemplice.it/carica → algoritmo di risoluzione → URL finale. In produzione da febbraio 2026."
     }
   ],
   "kpi": [
@@ -34,8 +38,8 @@
     },
     {
       "label": "Avanzamento",
-      "val": "~20%",
-      "sub": "stima da verificare"
+      "val": "~40%",
+      "sub": "catena tecnica in prod. da feb"
     },
     {
       "label": "Consegna stimata",
@@ -69,9 +73,9 @@
     },
     {
       "nome": "Implementazione doppio short URL",
-      "stato": "Incerto",
-      "pct": 10,
-      "color": "#ef4444"
+      "stato": "In corso",
+      "pct": 60,
+      "color": "#f59e0b"
     },
     {
       "nome": "Test & validazione spam rate",
@@ -104,8 +108,8 @@
     },
     {
       "titolo": "Implementazione doppio short URL",
-      "stato": "warn",
-      "note": "Beniamino potrebbe avere una prima versione — da verificare"
+      "stato": "progress",
+      "note": "Catena tecnica in produzione da febbraio 2026 (Ortu). Manca validazione test anti-spam su iPhone — era delegata a Kida."
     },
     {
       "titolo": "Riduzione tasso spam SMS",
@@ -156,8 +160,8 @@
     {
       "priorita": "alta",
       "owner": "FC",
-      "testo": "Briefing con Kida per raccogliere l'as-is senza coinvolgere ulteriormente Marco",
-      "scadenza": "20 giu 2026"
+      "testo": "Briefing con Kida: verificare se il test anti-spam su iPhone è stato eseguito e con quali risultati (meeting fissato 19 giu h15)",
+      "scadenza": "19 giu 2026"
     },
     {
       "priorita": "media",
@@ -208,6 +212,12 @@
       "ruolo": "Partner esterno",
       "note": "Ha concordato la soluzione tecnica del doppio short URL",
       "tag": "LM"
+    },
+    {
+      "nome": "Andrea Ortu",
+      "ruolo": "Sviluppatore (ex)",
+      "note": "Ha sviluppato la catena tecnica del doppio short URL. Confermato funzionante da febbraio 2026. Non coinvolto nel test anti-spam.",
+      "tag": "AO"
     }
   ],
   "log": [
@@ -220,6 +230,11 @@
       "data": "18 giu 2026",
       "autore": "Stefano Rasi",
       "testo": "Marco esausto per le continue sollecitazioni di Kida (3 chiamate nella stessa settimana per gli stessi chiarimenti). Fabrizio dovrà gestire la comunicazione in modo più strutturato."
+    },
+    {
+      "data": "18 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Call con Andrea Ortu: confermato che la catena tecnica (comparasemplice.it → shorturl.gg → comparasemplice.it/carica) è in produzione da febbraio 2026 e funziona correttamente. Il test di efficacia anti-spam su iPhone era delegato a Kida — non è chiaro se sia mai stato eseguito. Shortener esterno: shorturl.gg."
     }
   ],
   "gantt": [
