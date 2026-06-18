@@ -18,8 +18,8 @@
       "testo": "Meeting con Francesco Corbi fissato per il 25/06 h10 — kick-off ufficiale sviluppo."
     },
     {
-      "emoji": "⏱",
-      "testo": "Ciclo di sviluppo stimato 3-4 settimane a partire dal 25/06. Comunicazione board già allineata su questa stima."
+      "emoji": "⚠️",
+      "testo": "Ciclo di sviluppo stimato 3-4 settimane a partire dal 25/06 — stima preliminare PM, non ancora validata con i dev. Da confermare dopo il meeting del 23/06 con Carlo."
     },
     {
       "emoji": "✅",
@@ -45,7 +45,7 @@
     {
       "label": "Consegna stimata",
       "val": "fine lug",
-      "sub": "±1 settimana"
+      "sub": "stima PM, da validare"
     }
   ],
   "fasi": [
@@ -137,6 +137,11 @@
     }
   ],
   "rischi": [
+    {
+      "livello": "alto",
+      "titolo": "Stima tempistica non validata con i dev",
+      "desc": "La stima di 3-4 settimane è stata definita dal PM senza confronto con Carlo Briganti. Potrebbe non riflettere la complessità tecnica reale. Da confermare nel meeting del 23/06 e aggiornare dopo il kick-off del 25/06."
+    },
     {
       "livello": "alto",
       "titolo": "Qualità code base NG non verificata",
