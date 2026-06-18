@@ -84,6 +84,16 @@
       "stato": "ok",
       "titolo": "oAuth Google (iOS) e oAuth Apple avviati e condivisi con CT",
       "note": "Consegnato ✓ — oAuth Google per iOS e oAuth Apple condivisi via Slack"
+    },
+    {
+      "stato": "warn",
+      "titolo": "Credenziali SMTP per invio email con dominio IS",
+      "note": "Richiesto da CT — servono: indirizzo mittente, sender name, SMTP server, porta, username, password"
+    },
+    {
+      "stato": "warn",
+      "titolo": "Dominio (anche terzo livello) per web app preview",
+      "note": "Richiesto da CT — da decidere dove caricare la web app in preview"
     }
   ],
   "rischi": [
@@ -109,6 +119,18 @@
     }
   ],
   "azioni": [
+    {
+      "owner": "IS",
+      "testo": "Fornire a CT credenziali SMTP: indirizzo mittente, sender name, SMTP server, porta, username, password",
+      "scadenza": "ASAP",
+      "priorita": "alta"
+    },
+    {
+      "owner": "IS",
+      "testo": "Decidere e comunicare a CT il dominio (anche terzo livello) per caricare la web app in preview",
+      "scadenza": "ASAP",
+      "priorita": "alta"
+    },
     {
       "owner": "IS",
       "testo": "Comerci — Creazione webservice/progetti di test: (1) progetto test default, (2) progetto test con codice provider",
