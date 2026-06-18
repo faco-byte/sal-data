@@ -1,0 +1,68 @@
+{
+  "progetto": "Doppio Short URL",
+  "sottotitolo": "Riduzione spam SMS · Link Mobility",
+  "date": "18 giugno 2026",
+  "stato": "Urgente",
+  "statoBadge": "err",
+  "sommario": [
+    { "emoji": "🚨", "testo": "Problema attivo in produzione: una parte degli SMS aziendali viene classificata come spam. Impatto diretto sull'operatività." },
+    { "emoji": "💡", "testo": "Soluzione individuata con Link Mobility: double short URL (shortlizzare due volte la URL nell'SMS) per abbattere drasticamente il tasso di spam." },
+    { "emoji": "❓", "testo": "Stato implementazione incerto: non è chiaro se la soluzione sia stata già implementata parzialmente o solo sperimentata. Beniamino potrebbe avere una prima versione." },
+    { "emoji": "⚠️", "testo": "Frizioni interne: Kida ha sollecitato ripetutamente Marco per gli stessi chiarimenti, causando tensioni nel team. Fabrizio entra come punto di sintesi." },
+    { "emoji": "📌", "testo": "Priorità alta — va risolto il prima possibile. Stefano conosce poco il progetto: maggiore autonomia operativa richiesta a Fabrizio." }
+  ],
+  "kpi": [
+    { "label": "Priorità", "val": "🔴 Alta", "sub": "problema in produzione" },
+    { "label": "Avanzamento", "val": "~20%", "sub": "stima da verificare" },
+    { "label": "Consegna stimata", "val": "TBD", "sub": "da definire" },
+    { "label": "Partner esterno", "val": "Link Mobility", "sub": "soluzione concordata" }
+  ],
+  "fasi": [
+    { "nome": "Identificazione problema", "stato": "Completato", "pct": 100, "color": "#22c55e" },
+    { "nome": "Soluzione concordata con Link Mobility", "stato": "Completato", "pct": 100, "color": "#22c55e" },
+    { "nome": "Ricognizione stato attuale", "stato": "In corso", "pct": 15, "color": "#f59e0b" },
+    { "nome": "Implementazione doppio short URL", "stato": "Incerto", "pct": 10, "color": "#ef4444" },
+    { "nome": "Test & validazione spam rate", "stato": "Da fare", "pct": 0, "color": "#6366f1" },
+    { "nome": "Deploy produzione", "stato": "Da fare", "pct": 0, "color": "#6366f1" }
+  ],
+  "links": [
+    { "label": "Progetto Link Mobility", "url": "#" }
+  ],
+  "deliverables": [
+    { "titolo": "Mappatura stato as-is", "stato": "progress", "note": "Da completare con Kida e Beniamino — capire cosa è già stato fatto" },
+    { "titolo": "Implementazione doppio short URL", "stato": "warn", "note": "Beniamino potrebbe avere una prima versione — da verificare" },
+    { "titolo": "Riduzione tasso spam SMS", "stato": "warn", "note": "KPI di successo: abbattimento misurabile del tasso di classificazione spam" },
+    { "titolo": "Validazione con Link Mobility", "stato": "warn", "note": "Confermare con partner che la soluzione sia completa e corretta" }
+  ],
+  "rischi": [
+    { "livello": "alto", "titolo": "Problema attivo in produzione", "desc": "Gli SMS spam impattano già l'operatività aziendale. Ogni giorno di ritardo ha costo reale." },
+    { "livello": "alto", "titolo": "Stato implementazione sconosciuto", "desc": "Non è chiaro se Beniamino abbia già una versione funzionante o solo sperimentale. Il punto zero va mappato urgentemente." },
+    { "livello": "medio", "titolo": "Tensioni interne nel team", "desc": "Marco è esausto per le continue sollecitazioni di Kida. Fabrizio deve evitare di ripetere lo stesso schema — coordinare senza sovraccaricare." },
+    { "livello": "medio", "titolo": "Bassa conoscenza del progetto da parte di Stefano", "desc": "Stefano non può fornire supporto tecnico su questo progetto. Fabrizio ha meno rete di sicurezza rispetto agli altri due progetti." }
+  ],
+  "azioni": [
+    { "priorita": "alta", "owner": "FC", "testo": "Contattare Beniamino per capire lo stato attuale dell'implementazione doppio short URL", "scadenza": "19 giu 2026" },
+    { "priorita": "alta", "owner": "SR", "testo": "Comunicare a Kida l'ingresso di Fabrizio (già fatto — messaggio inviato)", "scadenza": "18 giu 2026 ✓" },
+    { "priorita": "alta", "owner": "FC", "testo": "Briefing con Kida per raccogliere l'as-is senza coinvolgere ulteriormente Marco", "scadenza": "20 giu 2026" },
+    { "priorita": "media", "owner": "FC", "testo": "Mappare il gap tra soluzione proposta e implementazione attuale", "scadenza": "23 giu 2026" },
+    { "priorita": "media", "owner": "FC", "testo": "Verificare con Link Mobility se la soluzione double short URL è completa o parziale", "scadenza": "25 giu 2026" }
+  ],
+  "stakeholder": [
+    { "nome": "Fabrizio Comerci", "ruolo": "Project Manager", "note": "PM operativo — punto di sintesi per evitare le frizioni precedenti", "tag": "FC" },
+    { "nome": "Stefano Rasi", "ruolo": "Responsabile IT", "note": "Conosce poco il progetto — coinvolgere solo per escalation", "tag": "SR" },
+    { "nome": "Kida", "ruolo": "Referente progetto", "note": "Ha seguito il progetto — fonte principale per l'as-is", "tag": "KD" },
+    { "nome": "Beniamino", "ruolo": "Sviluppatore", "note": "Potrebbe avere già implementato la prima versione del doppio short URL", "tag": "BE" },
+    { "nome": "Marco", "ruolo": "Esperto tecnico SMS", "note": "Esausto dalle continue sollecitazioni. Coinvolgere con parsimonia e rispetto del suo tempo", "tag": "MA" },
+    { "nome": "Link Mobility", "ruolo": "Partner esterno", "note": "Ha concordato la soluzione tecnica del doppio short URL", "tag": "LM" }
+  ],
+  "log": [
+    { "data": "18 giu 2026", "autore": "Stefano Rasi", "testo": "Fabrizio entra come PM. Problema attivo in produzione — alta priorità. Stefano ammette di conoscere poco il progetto." },
+    { "data": "18 giu 2026", "autore": "Stefano Rasi", "testo": "Marco esausto per le continue sollecitazioni di Kida (3 chiamate nella stessa settimana per gli stessi chiarimenti). Fabrizio dovrà gestire la comunicazione in modo più strutturato." }
+  ],
+  "gantt": [
+    { "fase": "Identificazione", "baseline": { "inizio": "apr 2026", "fine": "mag 2026" }, "revised": { "inizio": "apr 2026", "fine": "mag 2026" }, "startWeek": 0, "durationBaseline": 3, "durationRevised": 3, "avanzamento": 100, "stato": "✓ Done", "statoBg": "#dcfce7", "statoColor": "#15803d", "color": "#22c55e", "colorLight": "#dcfce7" },
+    { "fase": "Ricognizione as-is", "baseline": { "inizio": "18 giu", "fine": "20 giu" }, "revised": { "inizio": "18 giu", "fine": "23 giu" }, "startWeek": 3.5, "durationBaseline": 0.5, "durationRevised": 0.7, "avanzamento": 15, "stato": "In corso", "statoBg": "#fef9c3", "statoColor": "#a16207", "color": "#f59e0b", "colorLight": "#fef3c7" },
+    { "fase": "Implementazione", "baseline": { "inizio": "20 giu", "fine": "27 giu" }, "revised": { "inizio": "23 giu", "fine": "30 giu" }, "startWeek": 4.2, "durationBaseline": 1, "durationRevised": 1, "avanzamento": 0, "stato": "Da fare", "statoBg": "#f3f4f6", "statoColor": "#374151", "color": "#374151", "colorLight": "#f3f4f6" },
+    { "fase": "Test & deploy", "baseline": { "inizio": "27 giu", "fine": "4 lug" }, "revised": { "inizio": "30 giu", "fine": "7 lug" }, "startWeek": 5.2, "durationBaseline": 1, "durationRevised": 1, "avanzamento": 0, "stato": "Da fare", "statoBg": "#f3f4f6", "statoColor": "#374151", "color": "#374151", "colorLight": "#f3f4f6" }
+  ]
+}
