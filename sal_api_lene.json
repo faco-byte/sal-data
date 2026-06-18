@@ -5,73 +5,365 @@
   "stato": "In avvio",
   "statoBadge": "warn",
   "sommario": [
-    { "emoji": "✅", "testo": "Richiesta documentazione API Lene inviata ad Alfio — in attesa di risposta entro 19/06." },
-    { "emoji": "📅", "testo": "Meeting con Carlo Brigantzi fissato per il 23/06 h10 — allineamento stato avanzamento e avvio Lene." },
-    { "emoji": "📅", "testo": "Meeting con Francesco Corbi fissato per il 25/06 h10 — kick-off ufficiale sviluppo." },
-    { "emoji": "⏱", "testo": "Ciclo di sviluppo stimato 3-4 settimane a partire dal 25/06. Comunicazione board già allineata su questa stima." },
-    { "emoji": "✅", "testo": "Implementazione più semplice rispetto a ENI/Iren/NG: solo chiamata di inserimento, nessun controllo anagrafico a monte." }
+    {
+      "emoji": "✅",
+      "testo": "Richiesta documentazione API Lene inviata ad Alfio — in attesa di risposta entro 19/06."
+    },
+    {
+      "emoji": "📅",
+      "testo": "Meeting con Carlo Brigantzi fissato per il 23/06 h10 — allineamento stato avanzamento e avvio Lene."
+    },
+    {
+      "emoji": "📅",
+      "testo": "Meeting con Francesco Corbi fissato per il 25/06 h10 — kick-off ufficiale sviluppo."
+    },
+    {
+      "emoji": "⏱",
+      "testo": "Ciclo di sviluppo stimato 3-4 settimane a partire dal 25/06. Comunicazione board già allineata su questa stima."
+    },
+    {
+      "emoji": "✅",
+      "testo": "Implementazione più semplice rispetto a ENI/Iren/NG: solo chiamata di inserimento, nessun controllo anagrafico a monte."
+    }
   ],
   "kpi": [
-    { "label": "Fase attiva", "val": "Avvio", "sub": "" },
-    { "label": "Avanzamento", "val": "15%", "sub": "setup completato" },
-    { "label": "Kick-off sviluppo", "val": "25 giu", "sub": "con Corbi" },
-    { "label": "Consegna stimata", "val": "fine lug", "sub": "±1 settimana" }
+    {
+      "label": "Fase attiva",
+      "val": "Avvio",
+      "sub": ""
+    },
+    {
+      "label": "Avanzamento",
+      "val": "15%",
+      "sub": "setup completato"
+    },
+    {
+      "label": "Kick-off sviluppo",
+      "val": "25 giu",
+      "sub": "con Corbi"
+    },
+    {
+      "label": "Consegna stimata",
+      "val": "fine lug",
+      "sub": "±1 settimana"
+    }
   ],
   "fasi": [
-    { "nome": "Raccolta documentazione", "stato": "In corso", "pct": 40, "color": "#f59e0b" },
-    { "nome": "Allineamento Carlo (23/06)", "stato": "Pianificato", "pct": 0, "color": "#6366f1" },
-    { "nome": "Kick-off con Corbi (25/06)", "stato": "Pianificato", "pct": 0, "color": "#6366f1" },
-    { "nome": "Sviluppo API", "stato": "Da fare", "pct": 0, "color": "#6366f1" },
-    { "nome": "Code review & PR", "stato": "Da fare", "pct": 0, "color": "#6366f1" },
-    { "nome": "Staging & test", "stato": "Da fare", "pct": 0, "color": "#6366f1" }
+    {
+      "nome": "Raccolta documentazione",
+      "stato": "In corso",
+      "pct": 40,
+      "color": "#f59e0b"
+    },
+    {
+      "nome": "Allineamento Carlo (23/06)",
+      "stato": "Pianificato",
+      "pct": 0,
+      "color": "#6366f1"
+    },
+    {
+      "nome": "Kick-off con Corbi (25/06)",
+      "stato": "Pianificato",
+      "pct": 0,
+      "color": "#6366f1"
+    },
+    {
+      "nome": "Sviluppo API",
+      "stato": "Da fare",
+      "pct": 0,
+      "color": "#6366f1"
+    },
+    {
+      "nome": "Code review & PR",
+      "stato": "Da fare",
+      "pct": 0,
+      "color": "#6366f1"
+    },
+    {
+      "nome": "Staging & test",
+      "stato": "Da fare",
+      "pct": 0,
+      "color": "#6366f1"
+    }
   ],
   "links": [
-    { "label": "Documentazione API Lene", "url": "#" },
-    { "label": "Epica Supervision", "url": "#" }
+    {
+      "label": "Documentazione API Lene",
+      "url": "#"
+    },
+    {
+      "label": "Epica Supervision",
+      "url": "#"
+    },
+    {
+      "label": "Verbale meeting Carlo 23/06",
+      "url": "https://docs.google.com/document/d/1fSnV9HmOSBacL8uJhh9BpIUUpo6GExbR7jiH0Lz93vA/edit?tab=t.0"
+    }
   ],
   "deliverables": [
-    { "titolo": "Documentazione API raccolta", "stato": "progress", "note": "Richiesta inviata ad Alfio il 18/06 — attesa risposta entro 19/06" },
-    { "titolo": "Implementazione chiamata inserimento", "stato": "warn", "note": "Solo 2 endpoint (vs 5+ di ENI) — sviluppo Carlo Brigantzi" },
-    { "titolo": "Code review microservizio core", "stato": "warn", "note": "Reviewer: Pesce" },
-    { "titolo": "Code review micro staging", "stato": "warn", "note": "Reviewer: Francesco Corbi" },
-    { "titolo": "Deploy staging", "stato": "warn", "note": "Avvisare Stefano Rasi con 1 settimana di anticipo" },
-    { "titolo": "Go-live integrazione Lene", "stato": "warn", "note": "Obiettivo: fine luglio 2026" }
+    {
+      "titolo": "Documentazione API raccolta",
+      "stato": "progress",
+      "note": "Richiesta inviata ad Alfio il 18/06 — attesa risposta entro 19/06"
+    },
+    {
+      "titolo": "Implementazione chiamata inserimento",
+      "stato": "warn",
+      "note": "Solo 2 endpoint (vs 5+ di ENI) — sviluppo Carlo Brigantzi"
+    },
+    {
+      "titolo": "Code review microservizio core",
+      "stato": "warn",
+      "note": "Reviewer: Pesce"
+    },
+    {
+      "titolo": "Code review micro staging",
+      "stato": "warn",
+      "note": "Reviewer: Francesco Corbi"
+    },
+    {
+      "titolo": "Deploy staging",
+      "stato": "warn",
+      "note": "Avvisare Stefano Rasi con 1 settimana di anticipo"
+    },
+    {
+      "titolo": "Go-live integrazione Lene",
+      "stato": "warn",
+      "note": "Obiettivo: fine luglio 2026"
+    }
   ],
   "rischi": [
-    { "livello": "alto", "titolo": "Qualità code base NG non verificata", "desc": "Carlo ha implementato le API NG prima delle ferie senza review finale. Potrebbero emergere problemi che rallentano l'avvio di Lene. Da chiarire nel meeting del 23/06." },
-    { "livello": "medio", "titolo": "Documentazione API Lene incompleta", "desc": "Richiesta inviata ad Alfio il 18/06. Se non arriva entro 19/06, rischio di presentarsi al meeting del 23 senza materiale tecnico." },
-    { "livello": "medio", "titolo": "Ambiente staging bloccato", "desc": "Stefano richiede 1 settimana di preavviso per liberare staging. Rischio di collo di bottiglia a fine sviluppo." },
-    { "livello": "medio", "titolo": "Comunicazione con Andreas", "desc": "Alfio non gestisce efficacemente gli open point con Andreas. Fabrizio assume la gestione diretta per evitare blocchi comunicativi." }
+    {
+      "livello": "alto",
+      "titolo": "Qualità code base NG non verificata",
+      "desc": "Carlo ha implementato le API NG prima delle ferie senza review finale. Potrebbero emergere problemi che rallentano l'avvio di Lene. Da chiarire nel meeting del 23/06."
+    },
+    {
+      "livello": "medio",
+      "titolo": "Documentazione API Lene incompleta",
+      "desc": "Richiesta inviata ad Alfio il 18/06. Se non arriva entro 19/06, rischio di presentarsi al meeting del 23 senza materiale tecnico."
+    },
+    {
+      "livello": "medio",
+      "titolo": "Ambiente staging bloccato",
+      "desc": "Stefano richiede 1 settimana di preavviso per liberare staging. Rischio di collo di bottiglia a fine sviluppo."
+    },
+    {
+      "livello": "medio",
+      "titolo": "Comunicazione con Andreas",
+      "desc": "Alfio non gestisce efficacemente gli open point con Andreas. Fabrizio assume la gestione diretta per evitare blocchi comunicativi."
+    }
   ],
   "azioni": [
-    { "priorita": "completata", "owner": "FC", "testo": "Inviata richiesta documentazione API Lene ad Alfio", "scadenza": "18 giu 2026" },
-    { "priorita": "completata", "owner": "FC", "testo": "Fissato meeting con Carlo Brigantzi — 23/06 h10", "scadenza": "18 giu 2026" },
-    { "priorita": "completata", "owner": "FC", "testo": "Fissato meeting con Francesco Corbi — 25/06 h10", "scadenza": "18 giu 2026" },
-    { "priorita": "alta", "owner": "FC", "testo": "Ricevere e analizzare documentazione API da Alfio", "scadenza": "19 giu 2026" },
-    { "priorita": "alta", "owner": "FC", "testo": "Preparare agenda meeting Carlo 23/06 (stato NG + kick-off Lene)", "scadenza": "22 giu 2026" },
-    { "priorita": "media", "owner": "FC", "testo": "Avvisare Stefano Rasi con 1 settimana di anticipo prima del rilascio in staging", "scadenza": "In corso sviluppo" },
-    { "priorita": "media", "owner": "SR", "testo": "Portare Carlo e Francesco nello standup mattutino", "scadenza": "Settimana del 23 giu" }
+    {
+      "priorita": "completata",
+      "owner": "FC",
+      "testo": "Inviata richiesta documentazione API Lene ad Alfio",
+      "scadenza": "18 giu 2026"
+    },
+    {
+      "priorita": "completata",
+      "owner": "FC",
+      "testo": "Fissato meeting con Carlo Brigantzi — 23/06 h10",
+      "scadenza": "18 giu 2026"
+    },
+    {
+      "priorita": "completata",
+      "owner": "FC",
+      "testo": "Fissato meeting con Francesco Corbi — 25/06 h10",
+      "scadenza": "18 giu 2026"
+    },
+    {
+      "priorita": "alta",
+      "owner": "FC",
+      "testo": "Ricevere e analizzare documentazione API da Alfio",
+      "scadenza": "19 giu 2026"
+    },
+    {
+      "priorita": "alta",
+      "owner": "FC",
+      "testo": "Preparare agenda meeting Carlo 23/06 (stato NG + kick-off Lene)",
+      "scadenza": "22 giu 2026"
+    },
+    {
+      "priorita": "media",
+      "owner": "FC",
+      "testo": "Avvisare Stefano Rasi con 1 settimana di anticipo prima del rilascio in staging",
+      "scadenza": "In corso sviluppo"
+    },
+    {
+      "priorita": "media",
+      "owner": "SR",
+      "testo": "Portare Carlo e Francesco nello standup mattutino",
+      "scadenza": "Settimana del 23 giu"
+    }
   ],
   "stakeholder": [
-    { "nome": "Fabrizio Comerci", "ruolo": "Project Manager", "note": "PM operativo, gestione diretta sviluppatori e Andreas", "tag": "FC" },
-    { "nome": "Stefano Rasi", "ruolo": "Responsabile IT", "note": "Supervisione, approvazione stime, gestione staging", "tag": "SR" },
-    { "nome": "Carlo Brigantzi", "ruolo": "Sviluppatore principale", "note": "Rientra il 23/06 h10 — meeting fissato", "tag": "CB" },
-    { "nome": "Francesco Corbi", "ruolo": "Code reviewer", "note": "Meeting fissato il 25/06 h10 — review micro staging", "tag": "FR" },
-    { "nome": "Alfio", "ruolo": "Supporto / ponte", "note": "Richiesta documentazione inviata il 18/06 — in attesa risposta", "tag": "AL" },
-    { "nome": "Pesce", "ruolo": "Code reviewer", "note": "Review microservizio core", "tag": "PE" },
-    { "nome": "Andreas", "ruolo": "Committente", "note": "Interlocutore lato cliente — gestito da Fabrizio", "tag": "AN" }
+    {
+      "nome": "Fabrizio Comerci",
+      "ruolo": "Project Manager",
+      "note": "PM operativo, gestione diretta sviluppatori e Andreas",
+      "tag": "FC"
+    },
+    {
+      "nome": "Stefano Rasi",
+      "ruolo": "Responsabile IT",
+      "note": "Supervisione, approvazione stime, gestione staging",
+      "tag": "SR"
+    },
+    {
+      "nome": "Carlo Brigantzi",
+      "ruolo": "Sviluppatore principale",
+      "note": "Rientra il 23/06 h10 — meeting fissato",
+      "tag": "CB"
+    },
+    {
+      "nome": "Francesco Corbi",
+      "ruolo": "Code reviewer",
+      "note": "Meeting fissato il 25/06 h10 — review micro staging",
+      "tag": "FR"
+    },
+    {
+      "nome": "Alfio",
+      "ruolo": "Supporto / ponte",
+      "note": "Richiesta documentazione inviata il 18/06 — in attesa risposta",
+      "tag": "AL"
+    },
+    {
+      "nome": "Pesce",
+      "ruolo": "Code reviewer",
+      "note": "Review microservizio core",
+      "tag": "PE"
+    },
+    {
+      "nome": "Andreas",
+      "ruolo": "Committente",
+      "note": "Interlocutore lato cliente — gestito da Fabrizio",
+      "tag": "AN"
+    }
   ],
   "log": [
-    { "data": "18 giu 2026", "autore": "Stefano Rasi", "testo": "Call di briefing: Fabrizio prende in carico il PM del progetto API Lene. Stima 3-4 settimane comunicata al board." },
-    { "data": "18 giu 2026", "autore": "Fabrizio Comerci", "testo": "Inviata richiesta documentazione API Lene ad Alfio via Google Chat." },
-    { "data": "18 giu 2026", "autore": "Fabrizio Comerci", "testo": "Fissato meeting con Carlo Brigantzi per il 23/06 h10." },
-    { "data": "18 giu 2026", "autore": "Fabrizio Comerci", "testo": "Fissato meeting con Francesco Corbi per il 25/06 h10." }
+    {
+      "data": "18 giu 2026",
+      "autore": "Stefano Rasi",
+      "testo": "Call di briefing: Fabrizio prende in carico il PM del progetto API Lene. Stima 3-4 settimane comunicata al board."
+    },
+    {
+      "data": "18 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Inviata richiesta documentazione API Lene ad Alfio via Google Chat."
+    },
+    {
+      "data": "18 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Fissato meeting con Carlo Brigantzi per il 23/06 h10."
+    },
+    {
+      "data": "18 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Fissato meeting con Francesco Corbi per il 25/06 h10."
+    }
   ],
   "gantt": [
-    { "fase": "Doc & setup", "baseline": { "inizio": "19 giu", "fine": "22 giu" }, "revised": { "inizio": "19 giu", "fine": "22 giu" }, "startWeek": 0, "durationBaseline": 0.5, "durationRevised": 0.5, "avanzamento": 40, "stato": "In corso", "statoBg": "#fef9c3", "statoColor": "#a16207", "color": "#f59e0b", "colorLight": "#fef3c7" },
-    { "fase": "Meet Carlo", "baseline": { "inizio": "23 giu", "fine": "23 giu" }, "revised": { "inizio": "23 giu", "fine": "23 giu" }, "startWeek": 0.7, "durationBaseline": 0.3, "durationRevised": 0.3, "avanzamento": 0, "stato": "Pianificato", "statoBg": "#e0f2fe", "statoColor": "#0369a1", "color": "#6366f1", "colorLight": "#e0e7ff" },
-    { "fase": "Meet Corbi", "baseline": { "inizio": "25 giu", "fine": "25 giu" }, "revised": { "inizio": "25 giu", "fine": "25 giu" }, "startWeek": 1.0, "durationBaseline": 0.3, "durationRevised": 0.3, "avanzamento": 0, "stato": "Pianificato", "statoBg": "#e0f2fe", "statoColor": "#0369a1", "color": "#6366f1", "colorLight": "#e0e7ff" },
-    { "fase": "Sviluppo API", "baseline": { "inizio": "25 giu", "fine": "16 lug" }, "revised": { "inizio": "25 giu", "fine": "23 lug" }, "startWeek": 1.0, "durationBaseline": 3, "durationRevised": 4, "avanzamento": 0, "stato": "Da fare", "statoBg": "#f3f4f6", "statoColor": "#374151", "color": "#374151", "colorLight": "#f3f4f6" },
-    { "fase": "Review & staging", "baseline": { "inizio": "16 lug", "fine": "23 lug" }, "revised": { "inizio": "23 lug", "fine": "30 lug" }, "startWeek": 4, "durationBaseline": 1, "durationRevised": 1, "avanzamento": 0, "stato": "Da fare", "statoBg": "#f3f4f6", "statoColor": "#374151", "color": "#374151", "colorLight": "#f3f4f6" }
+    {
+      "fase": "Doc & setup",
+      "baseline": {
+        "inizio": "19 giu",
+        "fine": "22 giu"
+      },
+      "revised": {
+        "inizio": "19 giu",
+        "fine": "22 giu"
+      },
+      "startWeek": 0,
+      "durationBaseline": 0.5,
+      "durationRevised": 0.5,
+      "avanzamento": 40,
+      "stato": "In corso",
+      "statoBg": "#fef9c3",
+      "statoColor": "#a16207",
+      "color": "#f59e0b",
+      "colorLight": "#fef3c7"
+    },
+    {
+      "fase": "Meet Carlo",
+      "baseline": {
+        "inizio": "23 giu",
+        "fine": "23 giu"
+      },
+      "revised": {
+        "inizio": "23 giu",
+        "fine": "23 giu"
+      },
+      "startWeek": 0.7,
+      "durationBaseline": 0.3,
+      "durationRevised": 0.3,
+      "avanzamento": 0,
+      "stato": "Pianificato",
+      "statoBg": "#e0f2fe",
+      "statoColor": "#0369a1",
+      "color": "#6366f1",
+      "colorLight": "#e0e7ff"
+    },
+    {
+      "fase": "Meet Corbi",
+      "baseline": {
+        "inizio": "25 giu",
+        "fine": "25 giu"
+      },
+      "revised": {
+        "inizio": "25 giu",
+        "fine": "25 giu"
+      },
+      "startWeek": 1.0,
+      "durationBaseline": 0.3,
+      "durationRevised": 0.3,
+      "avanzamento": 0,
+      "stato": "Pianificato",
+      "statoBg": "#e0f2fe",
+      "statoColor": "#0369a1",
+      "color": "#6366f1",
+      "colorLight": "#e0e7ff"
+    },
+    {
+      "fase": "Sviluppo API",
+      "baseline": {
+        "inizio": "25 giu",
+        "fine": "16 lug"
+      },
+      "revised": {
+        "inizio": "25 giu",
+        "fine": "23 lug"
+      },
+      "startWeek": 1.0,
+      "durationBaseline": 3,
+      "durationRevised": 4,
+      "avanzamento": 0,
+      "stato": "Da fare",
+      "statoBg": "#f3f4f6",
+      "statoColor": "#374151",
+      "color": "#374151",
+      "colorLight": "#f3f4f6"
+    },
+    {
+      "fase": "Review & staging",
+      "baseline": {
+        "inizio": "16 lug",
+        "fine": "23 lug"
+      },
+      "revised": {
+        "inizio": "23 lug",
+        "fine": "30 lug"
+      },
+      "startWeek": 4,
+      "durationBaseline": 1,
+      "durationRevised": 1,
+      "avanzamento": 0,
+      "stato": "Da fare",
+      "statoBg": "#f3f4f6",
+      "statoColor": "#374151",
+      "color": "#374151",
+      "colorLight": "#f3f4f6"
+    }
   ]
 }
