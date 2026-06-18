@@ -2,8 +2,8 @@
   "progetto": "DCC + Veridas",
   "sottotitolo": "Reingegnerizzazione flusso antifrode · Supervision",
   "date": "18 giugno 2026",
-  "stato": "In stallo",
-  "statoBadge": "err",
+  "stato": "In corso",
+  "statoBadge": "warn",
   "sommario": [
     {
       "emoji": "🔄",
@@ -139,9 +139,9 @@
       "desc": "Il pulsante 'Invia contratto' ha logica diversa da 'Passa al BO': l'esito API è incerto e non si può inibirlo preventivamente come nel flusso manuale."
     },
     {
-      "livello": "medio",
+      "livello": "basso",
       "titolo": "Dipendenza da Kida per il briefing",
-      "desc": "Kida è lento nel fornire chiarimenti. Fabrizio deve estrarre le informazioni in modo efficiente per non prolungare lo stallo."
+      "desc": "Call fissata per il 19/06 alle 15:00. Documento di briefing già condiviso con Kida."
     },
     {
       "livello": "medio",
@@ -154,7 +154,7 @@
       "priorita": "alta",
       "owner": "FC",
       "testo": "Briefing as-is con Kida: raccogliere documentazione, grafico flusso e capire gli open point aperti",
-      "scadenza": "Entro 20 giu 2026"
+      "scadenza": "19 giu 2026 h 15:00 ✓ fissato"
     },
     {
       "priorita": "alta",
@@ -214,6 +214,11 @@
     }
   ],
   "log": [
+    {
+      "data": "18 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Call con Kida fissata per domani 19/06 alle 15:00. Documento di briefing inviato."
+    },
     {
       "data": "18 giu 2026",
       "autore": "Stefano Rasi",
