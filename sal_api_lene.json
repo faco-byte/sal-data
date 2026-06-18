@@ -11,7 +11,7 @@
     },
     {
       "emoji": "📅",
-      "testo": "Meeting con Carlo Brigantzi fissato per il 23/06 h10 — allineamento stato avanzamento e avvio Lene."
+      "testo": "Meeting con Carlo Briganti fissato per il 23/06 h10 — allineamento stato avanzamento e avvio Lene."
     },
     {
       "emoji": "📅",
@@ -113,7 +113,7 @@
     {
       "titolo": "Implementazione chiamata inserimento",
       "stato": "warn",
-      "note": "Solo 2 endpoint (vs 5+ di ENI) — sviluppo Carlo Brigantzi"
+      "note": "Solo 2 endpoint (vs 5+ di ENI) — sviluppo Carlo Briganti"
     },
     {
       "titolo": "Code review microservizio core",
@@ -168,7 +168,7 @@
     {
       "priorita": "completata",
       "owner": "FC",
-      "testo": "Fissato meeting con Carlo Brigantzi — 23/06 h10",
+      "testo": "Fissato meeting con Carlo Briganti — 23/06 h10",
       "scadenza": "18 giu 2026"
     },
     {
@@ -216,7 +216,7 @@
       "tag": "SR"
     },
     {
-      "nome": "Carlo Brigantzi",
+      "nome": "Carlo Briganti",
       "ruolo": "Sviluppatore principale",
       "note": "Rientra il 23/06 h10 — meeting fissato",
       "tag": "CB"
@@ -260,7 +260,7 @@
     {
       "data": "18 giu 2026",
       "autore": "Fabrizio Comerci",
-      "testo": "Fissato meeting con Carlo Brigantzi per il 23/06 h10."
+      "testo": "Fissato meeting con Carlo Briganti per il 23/06 h10."
     },
     {
       "data": "18 giu 2026",
