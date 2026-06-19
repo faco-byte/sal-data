@@ -154,8 +154,7 @@
       "priorita": "alta",
       "owner": "FC",
       "testo": "Briefing as-is con Kida: raccogliere documentazione, grafico flusso e capire gli open point aperti",
-      "scadenza": "19 giu 2026 h 15:00 ✓ fatto",
-      "stato": "completato"
+      "scadenza": "19 giu 2026 h 15:00 — OGGI ✓"
     },
     {
       "priorita": "alta",
@@ -218,7 +217,7 @@
     {
       "data": "19 giu 2026",
       "autore": "Fabrizio Comerci",
-      "testo": "Call con Kida completata."
+      "testo": "Gianluca Pesce ha validato la proposta di flusso per i prodotti con firma digitale in termini tecnici. Manca solo la validazione di Andreas."
     },
     {
       "data": "18 giu 2026",
