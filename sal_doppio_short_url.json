@@ -36,6 +36,10 @@
     {
       "emoji": "✅",
       "testo": "Test anti-spam positivo (19 giu 2026, Fabrizio Comerci): catena doppio short URL (bit.ly => shorturl.gg => comparasemplice) non classificata come spam su 2 Android + 1 iOS. Short URL temporanei usati per il solo test."
+    },
+    {
+      "emoji": "🗓",
+      "testo": "Strategia in due fasi: Fase 1 (breve termine) — implementare shorturl 2 tramite Bitly (da quotare). Fase 2 (lungo termine) — sviluppo interno sistema redirect su dominio Semplice.it (Alfio, CTO)."
     }
   ],
   "kpi": [
@@ -182,6 +186,18 @@
       "owner": "FC",
       "testo": "Verificare con Link Mobility se la soluzione double short URL è completa o parziale",
       "scadenza": "25 giu 2026"
+    },
+    {
+      "testo": "Contattare Bitly per quotazione servizio shorturl (secondo short URL in produzione)",
+      "owner": "FC",
+      "scadenza": "da definire",
+      "priorita": "alta"
+    },
+    {
+      "testo": "Pianificare con Alfio (CTO) sviluppo interno sistema redirect su Semplice.it (fase 2)",
+      "owner": "FC",
+      "scadenza": "da definire",
+      "priorita": "media"
     }
   ],
   "stakeholder": [
@@ -232,6 +248,12 @@
       "ruolo": "Marketing",
       "note": "Coinvolta nella valutazione fornitori SMS. Ha incontrato Fastweb/Kaleyra: rinviata a settembre per assenza RCS. Fornitore attuale confermato: KPM Link Mobility.",
       "tag": "RE"
+    },
+    {
+      "nome": "Alfio",
+      "ruolo": "CTO",
+      "note": "Ha proposto sviluppo interno di un sistema di redirect su terzo livello Semplice.it come soluzione definitiva (fase 2).",
+      "tag": "AL"
     }
   ],
   "log": [
@@ -269,6 +291,11 @@
       "data": "19 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Test anti-spam effettuato con catena semplificata: SMS => bit.ly => shorturl.gg => comparasemplice. Risultato: nessun SMS in spam su 2 Android + 1 iOS. Short URL temporanei usati per verifica spam — non il flusso di produzione. Conferma che il doppio short URL bypassa i filtri."
+    },
+    {
+      "data": "19 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Strategia shorturl 2 definita in due fasi: Fase 1 (breve) — Bitly da quotare per implementazione rapida in produzione. Fase 2 (lungo termine) — sviluppo interno sistema redirect su dominio Semplice.it, proposto da Alfio (CTO)."
     }
   ],
   "gantt": [
@@ -360,8 +387,8 @@
       "nota": "Primo short URL esterno — presente sia in as-is che in to-be"
     },
     "shorturl_2": {
-      "stato": "open",
-      "nota": "Secondo short URL esterno — presente nel to-be, MANCANTE nell as-is attuale. Questo è il gap tecnico da colmare."
+      "stato": "warn",
+      "nota": "Fase 1: Bitly (da quotare). Fase 2: sviluppo interno su Semplice.it (Alfio). Gap tecnico in corso di risoluzione."
     },
     "carica": {
       "stato": "ok",
