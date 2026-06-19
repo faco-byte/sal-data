@@ -225,7 +225,7 @@
     },
     {
       "owner": "IS",
-      "testo": "Raccogliere ulteriori registrazioni per analisi latenza (obiettivo: campione significativo)",
+      "testo": "Raccogliere ulteriori registrazioni per analisi latenza (a carico di Operations)",
       "scadenza": "In corso",
       "priorita": "alta"
     },
