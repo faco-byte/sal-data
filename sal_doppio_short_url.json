@@ -30,8 +30,8 @@
       "testo": "Flusso tecnico confermato: URL originale → comparasemplice.it/?t=... → shorturl.gg/... → comparasemplice.it/carica → algoritmo di risoluzione → URL finale."
     },
     {
-      "emoji": "⚠️",
-      "testo": "Stato preventivi cambio fornitore SMS (Fastweb/Kaleyra, valutati da Marco Neri e Roberta Esposito) non noto — da verificare con Kida o Marco."
+      "emoji": "✅",
+      "testo": "Fornitore SMS attuale: KPM Link Mobility. Fastweb/Kaleyra valutata e rinviata a settembre 2026 (manca implementazione RCS per abbattimento costi)."
     }
   ],
   "kpi": [
@@ -226,7 +226,7 @@
     {
       "nome": "Roberta Esposito",
       "ruolo": "Marketing",
-      "note": "Coinvolta nella valutazione dei fornitori SMS insieme a Marco Neri (feb 2026). Ha partecipato ai test con Fastweb/Kaleyra.",
+      "note": "Coinvolta nella valutazione fornitori SMS. Ha incontrato Fastweb/Kaleyra: rinviata a settembre per assenza RCS. Fornitore attuale confermato: KPM Link Mobility.",
       "tag": "RE"
     }
   ],
@@ -250,6 +250,11 @@
       "data": "18 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Integrazione contesto da mail feb 2026: flusso in due step (stile WhatsApp) testato da Kida e scartato. Guida operatori inserita in SV nel popup Invia SMS. Marco Neri e Roberta Esposito (Marketing) hanno valutato cambio fornitore con Fastweb/Kaleyra — stato preventivi ignoto. Go-live febbraio era consapevolmente un test su larga scala, non una certezza."
+    },
+    {
+      "data": "18 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Chat con Roberta Esposito: fornitore SMS attuale confermato = KPM Link Mobility. Fastweb/Kaleyra valutata in diversi incontri ma rinviata a settembre — non hanno ancora implementato RCS, tecnologia che permetterebbe di abbassare ulteriormente i costi."
     }
   ],
   "gantt": [
@@ -337,8 +342,8 @@
   "flusso_aggiornato": "18 giu 2026",
   "flusso_stati": {
     "fornitore_sms": {
-      "stato": "warn",
-      "nota": "Preventivi Fastweb/Kaleyra richiesti da Marco Neri e Roberta Esposito (feb 2026) — stato non noto"
+      "stato": "ok",
+      "nota": "Fornitore attuale: KPM Link Mobility. Fastweb/Kaleyra valutata ma rinviata a settembre — manca implementazione RCS."
     },
     "sms_inviato": {
       "stato": "ok",
