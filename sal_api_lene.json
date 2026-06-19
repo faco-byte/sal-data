@@ -145,7 +145,7 @@
     {
       "livello": "alto",
       "titolo": "Qualità code base NG non verificata",
-      "desc": "Carlo ha implementato le API NG prima delle ferie senza review finale. Potrebbero emergere problemi che rallentano l'avvio di Lene. Da chiarire nel meeting del 23/06."
+      "desc": "Carlo ha implementato le API NG prima delle ferie senza review finale. Corbi non ha mai visto questo codice (la sua review precedente riguardava Engie, non NG). La codebase NG è quindi completamente priva di review. Da chiarire nel meeting del 23/06 con Carlo."
     },
     {
       "livello": "medio",
@@ -161,6 +161,11 @@
       "livello": "medio",
       "titolo": "Comunicazione con Andreas",
       "desc": "Alfio non gestisce efficacemente gli open point con Andreas. Fabrizio assume la gestione diretta per evitare blocchi comunicativi."
+    },
+    {
+      "livello": "medio",
+      "titolo": "Corbi senza contesto sulla codebase Lene/NG",
+      "desc": "La review a distanza fatta da Corbi riguardava il progetto Engie, non NG. Arriva al kick-off del 25/06 senza familiarità pregressa con la codebase. Necessario prevedere tempo di onboarding tecnico nel piano di lavoro."
     }
   ],
   "azioni": [
@@ -229,7 +234,7 @@
     {
       "nome": "Francesco Corbi",
       "ruolo": "Code reviewer",
-      "note": "Meeting fissato il 25/06 h10 — review micro staging",
+      "note": "Meeting fissato il 25/06 h10 — review micro staging. Ha fatto review del codice Engie (non NG) prima del kick-off Lene — arriva al progetto senza familiarità pregressa con la codebase Lene/NG.",
       "tag": "FR"
     },
     {
@@ -271,6 +276,11 @@
       "data": "18 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Fissato meeting con Francesco Corbi per il 25/06 h10."
+    },
+    {
+      "data": "18 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Chiarito con Corbi: la review a distanza precedente riguardava il codice Engie, non NG. Corbi arriva al progetto Lene senza familiarità pregressa con la codebase."
     }
   ],
   "gantt": [
