@@ -88,20 +88,16 @@
   ],
   "links": [
     {
-      "label": "Documentazione flusso (Cloud)",
-      "url": "#"
-    },
-    {
-      "label": "Epica DCC Supervision",
-      "url": "#"
-    },
-    {
       "label": "Briefing Kida — Documento di lavoro",
       "url": "https://docs.google.com/document/d/1YAr7U3s76A6xPC3qUwceZQNPAuaIh5R_n5DdMOtNNPk/edit?tab=t.0"
     },
     {
       "label": "SPVS-4070 — Jira Epic",
       "url": "https://innovasemplice.atlassian.net/browse/SPVS-4070"
+    },
+    {
+      "label": "Nuovo flusso firma digitale — da verificare con Andreas",
+      "url": "https://drive.google.com/open?id=1q9Gf68gyZjzbGLhHJOmwtXZyO3Rlb3iN&usp=drive_fs"
     }
   ],
   "deliverables": [
