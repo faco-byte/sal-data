@@ -23,7 +23,7 @@
     },
     {
       "emoji": "🆕",
-      "testo": "Lene ha una piattaforma backup/reportistica chiamata PartnerCommunity: 5 licenze disponibili (1 master + 4 figli). Dobbiamo fornire lista operatori BO con mail, nome, cognome, telefono, ruolo."
+      "testo": "PartnerCommunity: 5 licenze (1 master + 4 figli). Lista operatori BO da raccogliere con Simona (referente indicata da Andreas) — mail, nome, cognome, telefono, ruolo."
     },
     {
       "emoji": "🆕",
@@ -38,8 +38,8 @@
       "testo": "Lene prevede 1 settimana di test UAT prima del go-live."
     },
     {
-      "emoji": "⚠️",
-      "testo": "Audit interno Lene sui comparatori in corso — se non completato blocca il go-live in produzione. Andreas deve chiedere info in merito."
+      "emoji": "✅",
+      "testo": "Audit interno Lene: Andreas conferma che non ha impatto sulle API (riguarda modifiche contrattuali). Rischio rimosso."
     },
     {
       "emoji": "🆕",
@@ -195,9 +195,9 @@
       "desc": "La review a distanza fatta da Corbi riguardava il progetto Engie, non NG. Arriva al kick-off del 25/06 senza familiarità pregressa con la codebase. Necessario prevedere tempo di onboarding tecnico nel piano di lavoro."
     },
     {
-      "livello": "alto",
-      "titolo": "Audit interno Lene blocca il go-live",
-      "desc": "Lene ha comunicato un audit interno sui comparatori. Se non completato, impedisce il passaggio in produzione. Andreas deve richiedere aggiornamenti sullo stato e la data prevista di chiusura."
+      "livello": "basso",
+      "titolo": "Audit interno Lene — impatto su API escluso",
+      "desc": "Andreas ha confermato (18/06) che l'audit interno Lene riguarda modifiche al contratto e non ha impatto sulle API. Rischio reclassificato da alto a basso. Monitorare eventuali aggiornamenti."
     },
     {
       "livello": "alto",
@@ -264,15 +264,15 @@
       "scadenza": "Settimana del 23 giu"
     },
     {
-      "priorita": "alta",
+      "priorita": "completata",
       "owner": "AN",
-      "testo": "Chiedere ad Andreas aggiornamenti sull'audit interno Lene: stato e data prevista chiusura",
-      "scadenza": "20 giu 2026"
+      "testo": "Andreas confermato: audit Lene non impatta le API (modifiche al contratto, non alle API)",
+      "scadenza": "18 giu 2026"
     },
     {
       "priorita": "alta",
       "owner": "FC",
-      "testo": "Raccogliere lista operatori BO (mail, nome, cognome, telefono, ruolo) per licenze PartnerCommunity",
+      "testo": "Raccogliere lista operatori BO da Simona (referente indicata da Andreas) — mail, nome, cognome, telefono, ruolo",
       "scadenza": "23 giu 2026"
     },
     {
@@ -374,6 +374,11 @@
       "data": "18 giu 2026",
       "autore": "Alfio (CTO)",
       "testo": "Call con Lene: documentazione API condivisa (Google Drive + Postman). Confermata piattaforma PartnerCommunity (5 licenze). API senza errori puntuali. 1 settimana UAT prevista. Audit interno Lene in corso — potenziale blocco al go-live. Lene chiede tempi di sviluppo entro settimana del 25/06."
+    },
+    {
+      "data": "18 giu 2026",
+      "autore": "Andreas",
+      "testo": "Risposta email: audit Lene non impatta le API (modifiche al contratto). Per lista operatori BO, riferimento è Simona."
     }
   ],
   "gantt": [
