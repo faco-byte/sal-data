@@ -152,8 +152,8 @@
       "priorita": "alta"
     },
     {
-      "owner": "IS+CT",
-      "testo": "Avviare formalmente DPA / nomina responsabile trattamento (Comparetech per OCR bollette)",
+      "owner": "IS Legal + CT",
+      "testo": "IS Legal + CT (Giacomo) — Avviare formalmente DPA / nomina responsabile trattamento per OCR bollette",
       "scadenza": "Prima del go-live F1",
       "priorita": "alta"
     },
@@ -165,7 +165,7 @@
     },
     {
       "owner": "IS",
-      "testo": "Chiudere schema DB tariffe con Andrea Ortu e comunicarlo a CT",
+      "testo": "Ortu + Comerci — Definire SLA e criteri di qualità per DB offerte Comparetech (aggiornamento, accuratezza, continuità)",
       "scadenza": "ASAP",
       "priorita": "media"
     },
@@ -189,31 +189,31 @@
     },
     {
       "owner": "IS",
-      "testo": "Definire SLA e criteri di qualità per DB offerte Comparetech (aggiornamento, accuratezza, continuità)",
+      "testo": "Ortu + Comerci — Definire SLA e criteri di qualità per DB offerte Comparetech (aggiornamento, accuratezza, continuità)",
       "scadenza": "Prima del go-live F2",
       "priorita": "media"
     },
     {
       "owner": "IS",
-      "testo": "Consultare team legale per definire procedura cancellazione dati app + CRM e tempistiche di conservazione",
+      "testo": "Comerci — Consultare team legale per definire procedura cancellazione dati app + CRM e tempistiche di conservazione",
       "scadenza": "ASAP",
       "priorita": "alta"
     },
     {
-      "owner": "CT",
-      "testo": "Verificare funzionalità cancellazione automatica dati utenti in SuperVision CRM (Giacomo + Andrea Ortu)",
+      "owner": "IS",
+      "testo": "Comerci — Consultare team legale per definire procedura cancellazione dati app + CRM e tempistiche di conservazione",
       "scadenza": "Prossimo SAL",
       "priorita": "media"
     },
     {
       "owner": "CT",
-      "testo": "Ottimizzare UI per resa con carattere ingrandito (Simone) — usare screenshot Andrea come riferimento",
+      "testo": "CT (Jacopo/Simone) — Ottimizzare UI per resa con carattere ingrandito — usare screenshot Andrea come riferimento",
       "scadenza": "Prossimo SAL",
       "priorita": "media"
     },
     {
       "owner": "CT",
-      "testo": "Configurare login Google via Supabase (Simone) — accesso OAuth già inviato da IS",
+      "testo": "CT (Simone) — Configurare login Google via Supabase — accesso OAuth già inviato da IS",
       "scadenza": "Prossimo SAL",
       "priorita": "media"
     }
