@@ -188,10 +188,11 @@
       "scadenza": "25 giu 2026"
     },
     {
-      "testo": "Contattare Bitly per quotazione servizio shorturl (secondo short URL in produzione)",
+      "testo": "Incontro commerciale con Bitly per piano enterprise — richiesto (19 giu 2026)",
       "owner": "FC",
       "scadenza": "da definire",
-      "priorita": "alta"
+      "priorita": "alta",
+      "stato": "in corso"
     },
     {
       "testo": "Pianificare con Alfio (CTO) sviluppo interno sistema redirect su Semplice.it (fase 2)",
@@ -296,6 +297,11 @@
       "data": "19 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Strategia shorturl 2 definita in due fasi: Fase 1 (breve) — Bitly da quotare per implementazione rapida in produzione. Fase 2 (lungo termine) — sviluppo interno sistema redirect su dominio Semplice.it, proposto da Alfio (CTO)."
+    },
+    {
+      "data": "19 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Richiesto incontro commerciale con Bitly per piano enterprise. In attesa di risposta."
     }
   ],
   "gantt": [
