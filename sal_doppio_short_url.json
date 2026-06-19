@@ -32,6 +32,10 @@
     {
       "emoji": "🔴",
       "testo": "Gap tecnico identificato: il flusso as-is manca del secondo short URL esterno. To-be: SMS => shorturl1 => shorturl2 => comparasemplice.it/carica => landing. As-is: SMS => shorturl1 => comparasemplice.it/carica => landing."
+    },
+    {
+      "emoji": "✅",
+      "testo": "Test anti-spam positivo (19 giu 2026, Fabrizio Comerci): catena doppio short URL (bit.ly => shorturl.gg => comparasemplice) non classificata come spam su 2 Android + 1 iOS. Short URL temporanei usati per il solo test."
     }
   ],
   "kpi": [
@@ -260,6 +264,11 @@
       "data": "19 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Gap tecnico identificato: as-is manca del secondo short URL esterno rispetto al to-be concordato con Marco Neri. To-be: SMS => shorturl1 (ext) => shorturl2 (ext) => comparasemplice.it/carica?t=TOKEN => landing. As-is: SMS => shorturl1 (ext) => comparasemplice.it/carica?t=TOKEN => landing."
+    },
+    {
+      "data": "19 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Test anti-spam effettuato con catena semplificata: SMS => bit.ly => shorturl.gg => comparasemplice. Risultato: nessun SMS in spam su 2 Android + 1 iOS. Short URL temporanei usati per verifica spam — non il flusso di produzione. Conferma che il doppio short URL bypassa i filtri."
     }
   ],
   "gantt": [
@@ -363,8 +372,8 @@
       "nota": "comparasemplice.it landing — destinazione finale utente"
     },
     "test_antispam": {
-      "stato": "open",
-      "nota": "Mai confermato su larga scala. Responsabilità di Kida — da chiarire nel meeting 19 giu"
+      "stato": "ok",
+      "nota": "Test positivo (19 giu, Fabrizio): SMS => bit.ly => shorturl.gg => comparasemplice. Nessun SMS in spam su 2 Android + 1 iOS."
     }
   },
   "flusso_tobe": "SMS => shorturl 1 (esterno) => shorturl 2 (esterno) => comparasemplice.it/carica?t=TOKEN => comparasemplice.it (landing)",
