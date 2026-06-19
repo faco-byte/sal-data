@@ -188,11 +188,11 @@
       "scadenza": "25 giu 2026"
     },
     {
-      "testo": "Incontro commerciale con Bitly per piano enterprise — richiesto (19 giu 2026)",
+      "testo": "Contattare Bitly per quotazione servizio shorturl (secondo short URL in produzione)",
       "owner": "FC",
       "scadenza": "da definire",
       "priorita": "alta",
-      "stato": "in corso"
+      "nota": "Piano Premium: 3.000 link/mese. In attesa di quotazione piano Enterprise."
     },
     {
       "testo": "Pianificare con Alfio (CTO) sviluppo interno sistema redirect su Semplice.it (fase 2)",
@@ -301,7 +301,7 @@
     {
       "data": "19 giu 2026",
       "autore": "Fabrizio Comerci",
-      "testo": "Richiesto incontro commerciale con Bitly per piano enterprise. In attesa di risposta."
+      "testo": "Bitly piano Premium: 3.000 link/mese. Volume probabilmente insufficiente per le campagne SMS — motivo per cui si è richiesto incontro per piano Enterprise."
     }
   ],
   "gantt": [
