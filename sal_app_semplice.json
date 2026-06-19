@@ -136,6 +136,11 @@
       "livello": "medio",
       "titolo": "Cancellazione account: allineamento app/CRM non definito",
       "desc": "La procedura di cancellazione dati tra app e SuperVision CRM non è ancora definita. Richiede consulto legale e chiarimento sulle tempistiche di conservazione post chiusura profilo — rilevante per conformità GDPR."
+    },
+    {
+      "livello": "medio",
+      "titolo": "Disallineamento utente app / intestatario bolletta — gap legal e funzionale",
+      "desc": "Caso reale: figlio usa l'app con bollette intestate ai genitori. Apre questioni su mandato/delega, consenso al trattamento dati del terzo, e flusso switch (chi firma il contratto?). Analisi funzionale affidata a Oltion. Da verificare anche come gestiscono la casistica i competitor (Billoo, Switcho)."
     }
   ],
   "azioni": [
@@ -202,6 +207,12 @@
     {
       "owner": "IS",
       "testo": "Definire chi si occupa internamente (IS) dell'alimentazione del DB offerte su piattaforma Comparetech",
+      "scadenza": "ASAP",
+      "priorita": "media"
+    },
+    {
+      "owner": "IS",
+      "testo": "Oltion — Analisi funzionale e competitive: gestione caso utente app ≠ intestatario bolletta (incl. implicazioni legal su mandato e switch)",
       "scadenza": "ASAP",
       "priorita": "media"
     }
