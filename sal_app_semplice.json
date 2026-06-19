@@ -87,13 +87,13 @@
     },
     {
       "stato": "ok",
-      "titolo": "Credenziali SMTP per invio email con dominio IS",
-      "note": "Consegnato ✓ — smtp.gmail.com, porta 587, username support@semplice.it"
+      "titolo": "Dominio terzo livello per web app deploy",
+      "note": "Consegnato ✓ — dev.semplice.it creato e configurato per deploy webapp"
     },
     {
       "stato": "ok",
-      "titolo": "Dominio (anche terzo livello) per web app preview",
-      "note": "Confermato ✓ — beta.semplice.it. Da comunicare a CT e configurare DNS."
+      "titolo": "Dominio terzo livello per web app deploy",
+      "note": "Consegnato ✓ — dev.semplice.it creato e configurato per deploy webapp"
     },
     {
       "stato": "ok",
@@ -139,12 +139,6 @@
     }
   ],
   "azioni": [
-    {
-      "owner": "IS",
-      "testo": "Configurare DNS per beta.semplice.it e comunicare il dominio a CT",
-      "scadenza": "ASAP",
-      "priorita": "alta"
-    },
     {
       "owner": "IS",
       "testo": "Comerci — Creazione webservice/progetti di test: (1) progetto test default, (2) progetto test con codice provider",
@@ -250,6 +244,10 @@
     {
       "label": "Registro Bug Segnalazioni",
       "url": "https://docs.google.com/spreadsheets/d/1QO6niGV7D2JTIAuQCXynaKGYXOn0hpV1/edit?gid=957519043#gid=957519043"
+    },
+    {
+      "label": "dev.semplice.it",
+      "url": "https://dev.semplice.it"
     }
   ],
   "gantt": [
