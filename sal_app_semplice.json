@@ -63,7 +63,7 @@
     {
       "stato": "ok",
       "titolo": "Schema DB tariffe + tempistiche integrazione",
-      "note": "Definito ✓ — offerte veicolate tramite DB Comparetech in attesa di sviluppo interno post-rilascio Reesonance (Open Data ARERA)"
+      "note": "DB offerte su piattaforma CT, alimentato da IS — referente interno IS da definire"
     },
     {
       "stato": "warn",
@@ -125,7 +125,7 @@
     {
       "livello": "medio",
       "titolo": "DB offerte affidato a Comparetech — dipendenza strutturale aggiuntiva",
-      "desc": "Per evitare blocco sviluppo F2 (ritardo DB Open Data ARERA, sviluppo interno posticipato a post-Reesonance), le offerte in app saranno veicolate tramite DB Comparetech. Questo aggiunge una dipendenza strutturale verso CT: qualità, aggiornamento e continuità del catalogo offerte sono ora in carico al vendor esterno."
+      "desc": "Le offerte in app saranno veicolate tramite DB Comparetech, alimentato da IS (referente interno da definire). In attesa del DB Open Data ARERA (sviluppo interno posticipato a post-Reesonance). Dipendenza strutturale verso CT per la gestione del catalogo."
     },
     {
       "livello": "medio",
@@ -158,12 +158,6 @@
       "priorita": "alta"
     },
     {
-      "owner": "IS",
-      "testo": "Ortu + Comerci — Definire SLA e criteri di qualità per DB offerte Comparetech (aggiornamento, accuratezza, continuità)",
-      "scadenza": "ASAP",
-      "priorita": "media"
-    },
-    {
       "owner": "IS+CT",
       "testo": "Aggiornare Gantt nel prossimo weekly",
       "scadenza": "Prossimo SAL",
@@ -180,12 +174,6 @@
       "testo": "Demo end-to-end flusso completo",
       "scadenza": "Weekly F1 closure",
       "priorita": "bassa"
-    },
-    {
-      "owner": "IS",
-      "testo": "Ortu + Comerci — Definire SLA e criteri di qualità per DB offerte Comparetech (aggiornamento, accuratezza, continuità)",
-      "scadenza": "Prima del go-live F2",
-      "priorita": "media"
     },
     {
       "owner": "IS",
@@ -209,6 +197,12 @@
       "owner": "CT",
       "testo": "CT (Simone) — Configurare login Google via Supabase — accesso OAuth già inviato da IS",
       "scadenza": "Prossimo SAL",
+      "priorita": "media"
+    },
+    {
+      "owner": "IS",
+      "testo": "Definire chi si occupa internamente (IS) dell'alimentazione del DB offerte su piattaforma Comparetech",
+      "scadenza": "ASAP",
       "priorita": "media"
     }
   ],
