@@ -26,12 +26,12 @@
       "testo": "Priorità alta — va risolto il prima possibile. Stefano conosce poco il progetto: maggiore autonomia operativa richiesta a Fabrizio."
     },
     {
-      "emoji": "🔗",
-      "testo": "Flusso tecnico confermato: URL originale → comparasemplice.it/?t=... → shorturl.gg/... → comparasemplice.it/carica → algoritmo di risoluzione → URL finale."
-    },
-    {
       "emoji": "✅",
       "testo": "Fornitore SMS attuale: KPM Link Mobility. Fastweb/Kaleyra valutata e rinviata a settembre 2026 (manca implementazione RCS per abbattimento costi)."
+    },
+    {
+      "emoji": "🔴",
+      "testo": "Gap tecnico identificato: il flusso as-is manca del secondo short URL esterno. To-be: SMS => shorturl1 => shorturl2 => comparasemplice.it/carica => landing. As-is: SMS => shorturl1 => comparasemplice.it/carica => landing."
     }
   ],
   "kpi": [
@@ -255,6 +255,11 @@
       "data": "18 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Chat con Roberta Esposito: fornitore SMS attuale confermato = KPM Link Mobility. Fastweb/Kaleyra valutata in diversi incontri ma rinviata a settembre — non hanno ancora implementato RCS, tecnologia che permetterebbe di abbassare ulteriormente i costi."
+    },
+    {
+      "data": "19 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Gap tecnico identificato: as-is manca del secondo short URL esterno rispetto al to-be concordato con Marco Neri. To-be: SMS => shorturl1 (ext) => shorturl2 (ext) => comparasemplice.it/carica?t=TOKEN => landing. As-is: SMS => shorturl1 (ext) => comparasemplice.it/carica?t=TOKEN => landing."
     }
   ],
   "gantt": [
@@ -339,35 +344,29 @@
       "colorLight": "#f3f4f6"
     }
   ],
-  "flusso_aggiornato": "18 giu 2026",
+  "flusso_aggiornato": "19 giu 2026",
   "flusso_stati": {
-    "fornitore_sms": {
+    "shorturl_1": {
       "stato": "ok",
-      "nota": "Fornitore attuale: KPM Link Mobility. Fastweb/Kaleyra valutata ma rinviata a settembre — manca implementazione RCS."
+      "nota": "Primo short URL esterno — presente sia in as-is che in to-be"
     },
-    "sms_inviato": {
-      "stato": "ok",
-      "nota": "In uso nelle campagne. Contiene il primo short URL."
-    },
-    "redirect_1": {
-      "stato": "ok",
-      "nota": "comparasemplice.it/?t=TOKEN — in produzione da feb 2026 (Andrea Ortu)"
-    },
-    "redirect_2": {
-      "stato": "ok",
-      "nota": "shorturl.gg/HASH — in produzione da feb 2026 (Andrea Ortu)"
+    "shorturl_2": {
+      "stato": "open",
+      "nota": "Secondo short URL esterno — presente nel to-be, MANCANTE nell as-is attuale. Questo è il gap tecnico da colmare."
     },
     "carica": {
       "stato": "ok",
-      "nota": "Algoritmo di risoluzione URL — funzionante (confermato da Ortu, 18 giu)"
+      "nota": "comparasemplice.it/carica?t=TOKEN — tracciamento lead, presente in entrambi i flussi"
     },
-    "url_finale": {
-      "stato": "warn",
-      "nota": "Formato esatto non documentato — da verificare con Benji"
+    "landing": {
+      "stato": "ok",
+      "nota": "comparasemplice.it landing — destinazione finale utente"
     },
     "test_antispam": {
       "stato": "open",
       "nota": "Mai confermato su larga scala. Responsabilità di Kida — da chiarire nel meeting 19 giu"
     }
-  }
+  },
+  "flusso_tobe": "SMS => shorturl 1 (esterno) => shorturl 2 (esterno) => comparasemplice.it/carica?t=TOKEN => comparasemplice.it (landing)",
+  "flusso_asis": "SMS => shorturl 1 (esterno) => comparasemplice.it/carica?t=TOKEN => comparasemplice.it (landing)"
 }
