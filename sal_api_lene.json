@@ -7,7 +7,7 @@
   "sommario": [
     {
       "emoji": "✅",
-      "testo": "Richiesta documentazione API Lene inviata ad Alfio — in attesa di risposta entro 19/06."
+      "testo": "Richiesta documentazione API Lene inviata ad Alfio il 18/06 — documentazione ricevuta tramite call Alfio-Lene del 18/06."
     },
     {
       "emoji": "📅",
@@ -22,8 +22,36 @@
       "testo": "Ciclo di sviluppo stimato 3-4 settimane a partire dal 25/06 — stima preliminare PM, non ancora validata con i dev. Da confermare dopo il meeting del 23/06 con Carlo."
     },
     {
-      "emoji": "✅",
-      "testo": "Implementazione più semplice rispetto a ENI/Iren/NG: solo chiamata di inserimento, nessun controllo anagrafico a monte."
+      "emoji": "🆕",
+      "testo": "Lene ha una piattaforma backup/reportistica chiamata PartnerCommunity: 5 licenze disponibili (1 master + 4 figli). Dobbiamo fornire lista operatori BO con mail, nome, cognome, telefono, ruolo."
+    },
+    {
+      "emoji": "🆕",
+      "testo": "Da API non riceviamo conferma esito vendita — da scaricare dal portale PartnerCommunity."
+    },
+    {
+      "emoji": "🆕",
+      "testo": "Le API non restituiscono errori puntuali ma solo errori generici. Impatto da valutare in fase di sviluppo."
+    },
+    {
+      "emoji": "🆕",
+      "testo": "Lene prevede 1 settimana di test UAT prima del go-live."
+    },
+    {
+      "emoji": "⚠️",
+      "testo": "Audit interno Lene sui comparatori in corso — se non completato blocca il go-live in produzione. Andreas deve chiedere info in merito."
+    },
+    {
+      "emoji": "🆕",
+      "testo": "Lene fornirà liste: distributori abilitati, POD 6 caratteri abilitati, REMI gas/comuni abilitati. Ci devono anche fornire il campo 'sourceDetail'."
+    },
+    {
+      "emoji": "🆕",
+      "testo": "Documentazione API disponibile: https://drive.google.com/drive/u/1/folders/18ox4XUa76wg5sKouDVjueIpghHkgIx68 — collection Postman già funzionante fornita da Alfio."
+    },
+    {
+      "emoji": "🆕",
+      "testo": "Lene si aspetta i tempi di sviluppo entro la settimana prossima (25/06). Le comunicazioni tecniche avverranno via thread mail."
     }
   ],
   "kpi": [
@@ -34,8 +62,8 @@
     },
     {
       "label": "Avanzamento",
-      "val": "15%",
-      "sub": "setup completato"
+      "val": "25%",
+      "sub": "doc ricevuta, call fatta"
     },
     {
       "label": "Kick-off sviluppo",
@@ -51,9 +79,9 @@
   "fasi": [
     {
       "nome": "Raccolta documentazione",
-      "stato": "In corso",
-      "pct": 40,
-      "color": "#f59e0b"
+      "stato": "Completata",
+      "pct": 100,
+      "color": "#16a34a"
     },
     {
       "nome": "Allineamento Carlo (23/06)",
@@ -102,6 +130,10 @@
     {
       "label": "Verbale meeting Corbi 25/06",
       "url": "https://docs.google.com/document/d/1XOm05hT5bUEFP4psdmJKANsnMkwwbzl3qZTlUcCH9no/edit?tab=t.0"
+    },
+    {
+      "label": "Documentazione API Lene (Google Drive)",
+      "url": "https://drive.google.com/drive/u/1/folders/18ox4XUa76wg5sKouDVjueIpghHkgIx68"
     }
   ],
   "deliverables": [
@@ -149,11 +181,6 @@
     },
     {
       "livello": "medio",
-      "titolo": "Documentazione API Lene incompleta",
-      "desc": "Richiesta inviata ad Alfio il 18/06. Se non arriva entro 19/06, rischio di presentarsi al meeting del 23 senza materiale tecnico."
-    },
-    {
-      "livello": "medio",
       "titolo": "Ambiente staging bloccato",
       "desc": "Stefano richiede 1 settimana di preavviso per liberare staging. Rischio di collo di bottiglia a fine sviluppo."
     },
@@ -166,6 +193,31 @@
       "livello": "medio",
       "titolo": "Corbi senza contesto sulla codebase Lene/NG",
       "desc": "La review a distanza fatta da Corbi riguardava il progetto Engie, non NG. Arriva al kick-off del 25/06 senza familiarità pregressa con la codebase. Necessario prevedere tempo di onboarding tecnico nel piano di lavoro."
+    },
+    {
+      "livello": "alto",
+      "titolo": "Audit interno Lene blocca il go-live",
+      "desc": "Lene ha comunicato un audit interno sui comparatori. Se non completato, impedisce il passaggio in produzione. Andreas deve richiedere aggiornamenti sullo stato e la data prevista di chiusura."
+    },
+    {
+      "livello": "alto",
+      "titolo": "API senza errori puntuali — solo errori generici",
+      "desc": "Le API Lene non restituiscono messaggi di errore specifici. Questo complica il debugging e la gestione degli errori lato Supervision. Carlo deve pianificare una strategia di error handling in fase di sviluppo."
+    },
+    {
+      "livello": "medio",
+      "titolo": "Tempi di sviluppo da comunicare a Lene entro il 25/06",
+      "desc": "Lene si aspetta una stima dei tempi di sviluppo entro la settimana prossima. La stima attuale del PM non è ancora validata con Carlo. Rischio di comunicare date non realistiche."
+    },
+    {
+      "livello": "medio",
+      "titolo": "Liste dati Lene non ancora ricevute",
+      "desc": "Lene deve fornire: lista distributori abilitati, lista POD (6 caratteri), REMI gas/comuni abilitati, campo sourceDetail. Senza questi dati lo sviluppo non può essere completato."
+    },
+    {
+      "livello": "medio",
+      "titolo": "Lista operatori BO da fornire a Lene",
+      "desc": "Dobbiamo fornire a Lene una lista di operatori BO con mail, nome, cognome, telefono, ruolo per l'attivazione delle 5 licenze PartnerCommunity. Da raccogliere e inviare prima dell'avvio sviluppo."
     }
   ],
   "azioni": [
@@ -210,6 +262,42 @@
       "owner": "SR",
       "testo": "Portare Carlo e Francesco nello standup mattutino",
       "scadenza": "Settimana del 23 giu"
+    },
+    {
+      "priorita": "alta",
+      "owner": "AN",
+      "testo": "Chiedere ad Andreas aggiornamenti sull'audit interno Lene: stato e data prevista chiusura",
+      "scadenza": "20 giu 2026"
+    },
+    {
+      "priorita": "alta",
+      "owner": "FC",
+      "testo": "Raccogliere lista operatori BO (mail, nome, cognome, telefono, ruolo) per licenze PartnerCommunity",
+      "scadenza": "23 giu 2026"
+    },
+    {
+      "priorita": "alta",
+      "owner": "FC",
+      "testo": "Comunicare a Lene tempi di sviluppo — validare prima con Carlo il 23/06",
+      "scadenza": "25 giu 2026"
+    },
+    {
+      "priorita": "alta",
+      "owner": "CB",
+      "testo": "Pianificare strategia error handling per API con errori solo generici",
+      "scadenza": "Avvio sviluppo"
+    },
+    {
+      "priorita": "media",
+      "owner": "FC",
+      "testo": "Sollecitare Lene per invio liste: distributori abilitati, POD, REMI, campo sourceDetail",
+      "scadenza": "25 giu 2026"
+    },
+    {
+      "priorita": "media",
+      "owner": "CB",
+      "testo": "Analizzare collection Postman Lene prima del meeting del 23/06",
+      "scadenza": "22 giu 2026"
     }
   ],
   "stakeholder": [
@@ -281,6 +369,11 @@
       "data": "18 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Chiarito con Corbi: la review a distanza precedente riguardava il codice Engie, non NG. Corbi arriva al progetto Lene senza familiarità pregressa con la codebase."
+    },
+    {
+      "data": "18 giu 2026",
+      "autore": "Alfio (CTO)",
+      "testo": "Call con Lene: documentazione API condivisa (Google Drive + Postman). Confermata piattaforma PartnerCommunity (5 licenze). API senza errori puntuali. 1 settimana UAT prevista. Audit interno Lene in corso — potenziale blocco al go-live. Lene chiede tempi di sviluppo entro settimana del 25/06."
     }
   ],
   "gantt": [
