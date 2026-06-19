@@ -333,5 +333,36 @@
       "color": "#374151",
       "colorLight": "#f3f4f6"
     }
-  ]
+  ],
+  "flusso_aggiornato": "18 giu 2026",
+  "flusso_stati": {
+    "fornitore_sms": {
+      "stato": "warn",
+      "nota": "Preventivi Fastweb/Kaleyra richiesti da Marco Neri e Roberta Esposito (feb 2026) — stato non noto"
+    },
+    "sms_inviato": {
+      "stato": "ok",
+      "nota": "In uso nelle campagne. Contiene il primo short URL."
+    },
+    "redirect_1": {
+      "stato": "ok",
+      "nota": "comparasemplice.it/?t=TOKEN — in produzione da feb 2026 (Andrea Ortu)"
+    },
+    "redirect_2": {
+      "stato": "ok",
+      "nota": "shorturl.gg/HASH — in produzione da feb 2026 (Andrea Ortu)"
+    },
+    "carica": {
+      "stato": "ok",
+      "nota": "Algoritmo di risoluzione URL — funzionante (confermato da Ortu, 18 giu)"
+    },
+    "url_finale": {
+      "stato": "warn",
+      "nota": "Formato esatto non documentato — da verificare con Benji"
+    },
+    "test_antispam": {
+      "stato": "open",
+      "nota": "Mai confermato su larga scala. Responsabilità di Kida — da chiarire nel meeting 19 giu"
+    }
+  }
 }
