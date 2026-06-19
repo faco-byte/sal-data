@@ -154,7 +154,8 @@
       "priorita": "alta",
       "owner": "FC",
       "testo": "Briefing as-is con Kida: raccogliere documentazione, grafico flusso e capire gli open point aperti",
-      "scadenza": "19 giu 2026 h 15:00 — OGGI ✓"
+      "scadenza": "19 giu 2026 h 15:00 ✓ fatto",
+      "stato": "completato"
     },
     {
       "priorita": "alta",
@@ -179,13 +180,6 @@
       "owner": "FC",
       "testo": "Verificare con Andreas le criticità sul flusso attuale (lentezza, macchinositù)",
       "scadenza": "Entro 25 giu 2026"
-    },
-    {
-      "id": "AZ-meeting-andreas-firma",
-      "testo": "Meeting con Andreas per validazione flusso firma digitale",
-      "owner": "FC / SR",
-      "scadenza": "In attesa risposta Andreas",
-      "stato": "in attesa"
     }
   ],
   "stakeholder": [
@@ -224,7 +218,7 @@
     {
       "data": "19 giu 2026",
       "autore": "Fabrizio Comerci",
-      "testo": "Inviata richiesta meeting ad Andreas per validare il flusso firma digitale. In copia Stefano Rasi e Kida. In attesa di risposta per fissare la data."
+      "testo": "Call con Kida completata."
     },
     {
       "data": "18 giu 2026",
