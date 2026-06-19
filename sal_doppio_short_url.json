@@ -28,6 +28,10 @@
     {
       "emoji": "🔗",
       "testo": "Flusso tecnico confermato: URL originale → comparasemplice.it/?t=... → shorturl.gg/... → comparasemplice.it/carica → algoritmo di risoluzione → URL finale."
+    },
+    {
+      "emoji": "⚠️",
+      "testo": "Stato preventivi cambio fornitore SMS (Fastweb/Kaleyra, valutati da Marco Neri e Roberta Esposito) non noto — da verificare con Kida o Marco."
     }
   ],
   "kpi": [
@@ -218,6 +222,12 @@
       "ruolo": "Sviluppatore",
       "note": "Ha sviluppato la catena tecnica del doppio short URL. Confermato funzionante da febbraio 2026. Non coinvolto nel test anti-spam.",
       "tag": "AO"
+    },
+    {
+      "nome": "Roberta Esposito",
+      "ruolo": "Marketing",
+      "note": "Coinvolta nella valutazione dei fornitori SMS insieme a Marco Neri (feb 2026). Ha partecipato ai test con Fastweb/Kaleyra.",
+      "tag": "RE"
     }
   ],
   "log": [
@@ -235,6 +245,11 @@
       "data": "18 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Call con Andrea Ortu: catena tecnica (comparasemplice.it → shorturl.gg → comparasemplice.it/carica) in produzione da febbraio 2026, funzionante. Il test anti-spam su iPhone era delegato a Kida — non è chiaro se sia mai stato eseguito. Shortener esterno: shorturl.gg."
+    },
+    {
+      "data": "18 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Integrazione contesto da mail feb 2026: flusso in due step (stile WhatsApp) testato da Kida e scartato. Guida operatori inserita in SV nel popup Invia SMS. Marco Neri e Roberta Esposito (Marketing) hanno valutato cambio fornitore con Fastweb/Kaleyra — stato preventivi ignoto. Go-live febbraio era consapevolmente un test su larga scala, non una certezza."
     }
   ],
   "gantt": [
