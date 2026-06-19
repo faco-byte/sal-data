@@ -29,13 +29,13 @@
   "kpi": [
     {
       "label": "Fase attiva",
-      "val": "Stallo",
-      "sub": "open point aperti"
+      "val": "Sviluppo",
+      "sub": "in corso"
     },
     {
       "label": "Avanzamento",
-      "val": "40%",
-      "sub": "flusso approvato"
+      "val": "75%",
+      "sub": "Gian in sviluppo"
     },
     {
       "label": "Stima residua",
@@ -63,15 +63,15 @@
     },
     {
       "nome": "Implementazione Gian",
-      "stato": "Parziale",
-      "pct": 55,
+      "stato": "In corso",
+      "pct": 70,
       "color": "#f59e0b"
     },
     {
       "nome": "Chiusura open point",
-      "stato": "In stallo",
-      "pct": 20,
-      "color": "#ef4444"
+      "stato": "Quasi chiuso",
+      "pct": 80,
+      "color": "#f59e0b"
     },
     {
       "nome": "Test & validazione",
@@ -129,9 +129,9 @@
   ],
   "rischi": [
     {
-      "livello": "alto",
+      "livello": "basso",
       "titolo": "Requisiti incompleti bloccano Gian",
-      "desc": "Gian non stima finché i requisiti non sono chiusi. Il blocco comunicativo Kida-Gian ha già causato stallo prolungato."
+      "desc": "Meeting con Gian completato. Sta già sviluppando. Resta aperto solo il flusso firma digitale, in attesa di validazione Andreas."
     },
     {
       "livello": "alto",
@@ -160,7 +160,8 @@
       "priorita": "alta",
       "owner": "FC",
       "testo": "Meeting con Gian per mappare to-be e definire soluzioni tecniche agli open point",
-      "scadenza": "Entro 23 giu 2026"
+      "scadenza": "19 giu 2026 ✓ fatto",
+      "stato": "completato"
     },
     {
       "priorita": "alta",
@@ -214,6 +215,11 @@
     }
   ],
   "log": [
+    {
+      "data": "19 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Meeting con Gian completato. Gian sta già sviluppando. Unico open point rimasto: flusso firma digitale, in attesa di validazione Andreas."
+    },
     {
       "data": "19 giu 2026",
       "autore": "Fabrizio Comerci",
