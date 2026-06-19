@@ -173,7 +173,8 @@
       "priorita": "alta",
       "owner": "FC",
       "testo": "Briefing con Kida: verificare se il test anti-spam su iPhone è stato eseguito e con quali risultati (meeting fissato 19 giu h15)",
-      "scadenza": "19 giu 2026"
+      "scadenza": "19 giu 2026",
+      "stato": "done"
     },
     {
       "priorita": "media",
@@ -188,11 +189,11 @@
       "scadenza": "25 giu 2026"
     },
     {
-      "testo": "Call commerciale con Bitly — piano Enterprise (7.000 link/mese, API)",
+      "testo": "Contattare Bitly per quotazione servizio shorturl (secondo short URL in produzione)",
       "owner": "FC",
-      "scadenza": "22 giu 2026",
+      "scadenza": "da definire",
       "priorita": "alta",
-      "nota": "Fissata per lunedì 22 giu h11. Requisiti: ~7.000 link/mese, generazione via API."
+      "nota": "Piano Premium: 3.000 link/mese. In attesa di quotazione piano Enterprise."
     },
     {
       "testo": "Pianificare con Alfio (CTO) sviluppo interno sistema redirect su Semplice.it (fase 2)",
@@ -306,7 +307,7 @@
     {
       "data": "19 giu 2026",
       "autore": "Fabrizio Comerci",
-      "testo": "Fissata call commerciale con Bitly per lunedì 22 giu h11. Oggetto: quotazione piano Enterprise (~7.000 link/mese, generazione via API)."
+      "testo": "Meeting con Kida effettuato (h15:00). Nessuna indicazione nuova rispetto a quanto già documentato."
     }
   ],
   "gantt": [
