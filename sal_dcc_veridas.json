@@ -98,6 +98,10 @@
     {
       "label": "Briefing Kida — Documento di lavoro",
       "url": "https://docs.google.com/document/d/1YAr7U3s76A6xPC3qUwceZQNPAuaIh5R_n5DdMOtNNPk/edit?tab=t.0"
+    },
+    {
+      "label": "SPVS-4070 — Jira Epic",
+      "url": "https://innovasemplice.atlassian.net/browse/SPVS-4070"
     }
   ],
   "deliverables": [
@@ -217,6 +221,11 @@
     {
       "data": "18 giu 2026",
       "autore": "Fabrizio Comerci",
+      "testo": "Allineamento con Gianluca Pesce. Confermato macro-tema aperto: gestione flusso con firma digitale. Il passa al BO automatico via callback impedisce di inibire il flusso lato negozio — richiesta modale su Invia contratto che blocchi negozio fino a completamento DCC + Veridas, mentre backoffice può procedere liberamente."
+    },
+    {
+      "data": "18 giu 2026",
+      "autore": "Fabrizio Comerci",
       "testo": "Call con Kida fissata per domani 19/06 alle 15:00. Documento di briefing inviato."
     },
     {
@@ -310,6 +319,17 @@
       "statoColor": "#374151",
       "color": "#374151",
       "colorLight": "#f3f4f6"
+    }
+  ],
+  "openPoints": [
+    {
+      "id": "OP-firma-digitale",
+      "titolo": "Firma digitale — gestione Invia contratto",
+      "stato": "aperto",
+      "priorita": "alta",
+      "owner": "Kida / Gian",
+      "dettaglio": "Il passa al BO viene esitato automaticamente dalla callback di firma. Serve modale su Invia contratto che blocchi il negozio finché DCC e Veridas non sono concluse (KO o OK). Il backoffice può procedere senza attendere l'esito.",
+      "fonte": "Gianluca Pesce, 18 giu 2026"
     }
   ]
 }
