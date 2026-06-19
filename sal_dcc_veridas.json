@@ -158,7 +158,7 @@
       "priorita": "alta",
       "owner": "FC",
       "testo": "Briefing as-is con Kida: raccogliere documentazione, grafico flusso e capire gli open point aperti",
-      "scadenza": "19 giu 2026 h 15:00 ✓ fissato"
+      "scadenza": "19 giu 2026 h 15:00 — OGGI ✓"
     },
     {
       "priorita": "alta",
@@ -220,11 +220,6 @@
   "log": [
     {
       "data": "18 giu 2026",
-      "autore": "Kida Mancini (via documento progetto)",
-      "testo": "Logica delle 24h chiusa. La verifica documento non viene richiesta se entro 24h dall'aggiunta del primo prodotto energia/TLC viene aggiunto un altro prodotto E la verifica del primo e' andata OK. DCC richiesta sempre. Contatore 24h parte all'invio SMS landing DCC+Veridas da parte di SuperVision."
-    },
-    {
-      "data": "18 giu 2026",
       "autore": "Kida Mancini (via Jira)",
       "testo": "Due risposte depositate. 1) Intestatario diverso da lead: testo DCC variante definito, cita sia lead che intestatario. 2) TLC: primo rilascio senza DCC per TLC per velocizzare. Integrazione valutata in futuro."
     },
@@ -236,7 +231,7 @@
     {
       "data": "18 giu 2026",
       "autore": "Fabrizio Comerci",
-      "testo": "Call con Kida fissata per domani 19/06 alle 15:00. Documento di briefing inviato."
+      "testo": "Call con Kida fissata per OGGI 19/06 alle 15:00. Documento di briefing inviato."
     },
     {
       "data": "18 giu 2026",
@@ -358,15 +353,6 @@
       "owner": "Kida",
       "dettaglio": "Primo rilascio senza DCC per TLC. Completare tracciamento nome offerta su tutti i prodotti TLC e andare online. Integrazione DCC su TLC valutata in un secondo momento.",
       "fonte": "Kida Mancini via Jira, 18 giu 2026"
-    },
-    {
-      "id": "OP-logica-24h",
-      "titolo": "Logica delle 24h post-job",
-      "stato": "chiuso",
-      "priorita": "media",
-      "owner": "Kida",
-      "dettaglio": "Verifica documento non richiesta se: entro 24h dall'aggiunta del primo prodotto energia/TLC viene aggiunto un altro prodotto E verifica documento del primo prodotto e' OK. DCC sempre richiesta. Contatore parte all'invio SMS landing da SuperVision.",
-      "fonte": "Kida Mancini via documento progetto, 18 giu 2026"
     }
   ]
 }
