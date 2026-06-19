@@ -1,7 +1,7 @@
 {
   "titolo": "Copilot Operatore",
-  "data": "12 giugno 2026",
-  "badge": "Test interno in corso",
+  "data": "19 giugno 2026",
+  "badge": "Test interno — anomalie in analisi",
   "provider": "Fedro",
   "integrazione": "SuperVision",
   "goLive": "TBD",
@@ -10,6 +10,11 @@
       "label": "Knowledge base Copilot",
       "url": "https://docs.google.com/spreadsheets/d/1Y5ZnxmHf_bp8b5hdu91VaX67NftlFjV8Bj0O6-k-rz8/edit?gid=0#gid=0",
       "note": "Casistiche e suggerimenti"
+    },
+    {
+      "label": "Registrazioni test (Drive)",
+      "url": "https://drive.google.com/drive/folders/158bSB5aIitG1Jx7fiQn1TOGIXxbkCQzE",
+      "note": "Registrazioni per analisi latenza"
     }
   ],
   "kpi": [
@@ -39,20 +44,24 @@
   ],
   "sommario": [
     {
-      "colore": "#639922",
-      "testo": "Anomalia in produzione risolta. Copilot nuovamente operativo."
+      "colore": "#BA7517",
+      "testo": "Test interno in corso — owner: Alessia Selvaggio (Operations)."
+    },
+    {
+      "colore": "#E24B4A",
+      "testo": "Anomalia 1: su chiamate inbound Copilot non trascrive e non fornisce suggerimenti. Errore di registrazione rilevato (icona rossa). Probabile problema di comunicazione centralino → sistemi Copilot."
+    },
+    {
+      "colore": "#E24B4A",
+      "testo": "Anomalia 2: in caso di recall senza esitazione Copilot non si apre. Dopo 7 minuti di conversazione nessun suggerimento erogato."
     },
     {
       "colore": "#BA7517",
-      "testo": "Test interno in corso — owner: Alessia Selvaggio."
+      "testo": "Problema Twilio (WhatsApp) escluso dall'analisi — non correlato a Copilot. Su alcuni ID confermati suggerimenti e trascrizioni presenti (es. ID 21110406)."
     },
     {
       "colore": "#378ADD",
-      "testo": "Superato il test interno, si procederà con il testing live sugli operatori pilota selezionati."
-    },
-    {
-      "colore": "#378ADD",
-      "testo": "Rollout esteso subordinato ai risultati del pilota."
+      "testo": "Registrazioni disponibili per analisi latenza: 1 — insufficiente. Necessario raccogliere ulteriori sessioni."
     }
   ],
   "roadmap": [
@@ -157,6 +166,21 @@
   "rischi": [
     {
       "livello": "alto",
+      "titolo": "Copilot non trascrive su chiamate inbound",
+      "desc": "Errore di registrazione rilevato (icona rossa). Il sistema non recepisce gli interventi di operatore e cliente. Probabile problema di comunicazione tra centralino e sistemi Copilot. In analisi con Fedro."
+    },
+    {
+      "livello": "alto",
+      "titolo": "Copilot non si apre in caso di recall senza esitazione",
+      "desc": "Se l'operatore richiama il cliente senza esitare in recall, Copilot non si attiva. Confermato su sessione da 7 minuti senza suggerimenti."
+    },
+    {
+      "livello": "medio",
+      "titolo": "Registrazioni insufficienti per analisi latenza",
+      "desc": "Solo 1 registrazione raccolta. Necessarie più sessioni per un'analisi statistica significativa della latenza."
+    },
+    {
+      "livello": "alto",
       "titolo": "Latenza suggerimenti da monitorare",
       "desc": "In fase di testing live. Se elevata richiederà ottimizzazione prima del rollout esteso."
     },
@@ -188,8 +212,20 @@
   ],
   "azioni": [
     {
+      "owner": "IS+Fedro",
+      "testo": "Investigare anomalia trascrizione su chiamate inbound — analisi log centralino vs sistemi Copilot",
+      "scadenza": "Urgente",
+      "priorita": "alta"
+    },
+    {
+      "owner": "IS+Fedro",
+      "testo": "Investigare mancata apertura Copilot in caso di recall senza esitazione",
+      "scadenza": "Urgente",
+      "priorita": "alta"
+    },
+    {
       "owner": "IS",
-      "testo": "Test interno Copilot — validazione funzionale post-anomalia",
+      "testo": "Raccogliere ulteriori registrazioni per analisi latenza (obiettivo: campione significativo)",
       "scadenza": "In corso",
       "priorita": "alta"
     },
