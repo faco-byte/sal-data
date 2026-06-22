@@ -180,13 +180,6 @@
       "owner": "FC",
       "testo": "Verificare con Andreas le criticità sul flusso attuale (lentezza, macchinositù)",
       "scadenza": "Entro 25 giu 2026"
-    },
-    {
-      "id": "AZ-beniamino",
-      "testo": "Gianluca aggiorna Beniamino su nuova logica landing e token firma digitale",
-      "owner": "Gianluca Pesce",
-      "scadenza": "Da pianificare",
-      "stato": "aperto"
     }
   ],
   "stakeholder": [
@@ -219,18 +212,13 @@
       "ruolo": "Committente",
       "note": "Ha già approvato il flusso Kida. Più disponibile con Fabrizio che con Kida",
       "tag": "AN"
-    },
-    {
-      "nome": "Beniamino",
-      "ruolo": "Frontend landing",
-      "note": "Da coinvolgere per nuova logica landing: token firma digitale, gestione stati, Passa al BO condizionale. Aggiornamento a cura di Gianluca Pesce."
     }
   ],
   "log": [
     {
       "data": "22 giu 2026",
       "autore": "Fabrizio Comerci",
-      "testo": "Call specifiche flusso DCC + Veridas con Gianluca Pesce e Giulia Pulcini. Novità: 1) Passa al BO automatico inibito per prodotti firma digitale — la landing non deve mandarlo. 2) Supervision deve passare token firma_digitale si/no nella query string alla landing. 3) Beniamino (frontend landing) da coinvolgere e aggiornare. 4) BO può intervenire solo dopo primo SMS inviato. 5) Sostituzione prodotto dopo SMS: casistica complessa rinviata a wave 2."
+      "testo": "Gian non ha preso in carico il contatto con Beniamino. Ownership pending — proposta di assegnare a Kida."
     },
     {
       "data": "19 giu 2026",
@@ -377,33 +365,6 @@
       "owner": "Kida",
       "dettaglio": "Primo rilascio senza DCC per TLC. Completare tracciamento nome offerta su tutti i prodotti TLC e andare online. Integrazione DCC su TLC valutata in un secondo momento.",
       "fonte": "Kida Mancini via Jira, 18 giu 2026"
-    },
-    {
-      "id": "OP-token-firma",
-      "titolo": "Token firma digitale nella query string",
-      "stato": "aperto",
-      "priorita": "alta",
-      "owner": "Gianluca Pesce / Beniamino",
-      "dettaglio": "Supervision deve passare alla landing un parametro nella query string (es. firma_digitale: si/no) per distinguere il flusso. La landing gestisce il Passa al BO automatico solo per prodotti senza firma; per prodotti con firma sblocca il pulsante Invia contratto.",
-      "fonte": "Call 22 giu 2026"
-    },
-    {
-      "id": "OP-beniamino",
-      "titolo": "Aggiornamento Beniamino su nuova logica landing",
-      "stato": "aperto",
-      "priorita": "alta",
-      "owner": "Gianluca Pesce",
-      "dettaglio": "Beniamino non è ancora al corrente della nuova logica. Gian deve informarlo e concordare il token per distinguere i flussi firma / non firma.",
-      "fonte": "Call 22 giu 2026"
-    },
-    {
-      "id": "OP-sostituzione-prodotto",
-      "titolo": "Sostituzione prodotto dopo invio SMS",
-      "stato": "aperto",
-      "priorita": "bassa",
-      "owner": "Gianluca Pesce",
-      "dettaglio": "Casistica complessa: se dealer sostituisce il prodotto dopo che il primo SMS è già stato inviato, il flusso diventa inconsistente. Rinviato a wave 2.",
-      "fonte": "Call 22 giu 2026"
     }
   ]
 }
