@@ -322,6 +322,11 @@
       "data": "19 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Preventivo Sniply ricevuto: .200/anno per 10.000 redirect link/mese, API access, rate limit 500/min, support. Confronto: Bitly €8.500/anno vs Sniply .200/anno — stesso volume, stessa API. Sniply circa 7x più economico."
+    },
+    {
+      "data": "19 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Risposta SLA Sniply: nessuna uptime guarantee formale (SOC2 certificato, ridondanze multiple). Incident response per severita. Support lun-ven 8-17 ET, weekend 14-16 ET. Superamento limite: link continuano a funzionare, notifica overage. Trial API non disponibile — attiva solo dopo accordo annuale firmato e pagamento. Status page pubblica: https://status.snip.ly/"
     }
   ],
   "gantt": [
