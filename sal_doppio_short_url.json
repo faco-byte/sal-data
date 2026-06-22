@@ -193,13 +193,25 @@
       "owner": "FC",
       "scadenza": "da definire",
       "priorita": "alta",
-      "nota": "Piano Premium: 3.000 link/mese. In attesa di quotazione piano Enterprise."
+      "nota": "Bitly Enterprise: 10.000 link/mese, €8.500/anno (€710/mese). In attesa preventivo Sniply."
     },
     {
       "testo": "Pianificare con Alfio (CTO) sviluppo interno sistema redirect su Semplice.it (fase 2)",
       "owner": "FC",
       "scadenza": "da definire",
       "priorita": "media"
+    },
+    {
+      "testo": "Attendere preventivo Sniply e confrontare con Bitly (€8.500/anno)",
+      "owner": "FC",
+      "scadenza": "da definire",
+      "priorita": "alta"
+    },
+    {
+      "testo": "Definire fornitore shorturl e assegnare implementazione a Luca Stanziani (1 gg stimato)",
+      "owner": "FC",
+      "scadenza": "da definire",
+      "priorita": "alta"
     }
   ],
   "stakeholder": [
@@ -256,6 +268,12 @@
       "ruolo": "CTO",
       "note": "Ha proposto sviluppo interno di un sistema di redirect su terzo livello Semplice.it come soluzione definitiva (fase 2).",
       "tag": "AL"
+    },
+    {
+      "nome": "Luca Stanziani",
+      "ruolo": "Developer",
+      "note": "Stima implementazione shorturl 2 in produzione: 1 giorno (implementazione + test + deploy).",
+      "tag": "LS"
     }
   ],
   "log": [
@@ -308,6 +326,11 @@
       "data": "19 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Meeting con Kida effettuato (h15:00). Nessuna indicazione nuova rispetto a quanto già documentato."
+    },
+    {
+      "data": "19 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Bitly Enterprise: 10.000 link/mese, €8.500/anno (€710/mese). Richiesto preventivo anche a Sniply — in attesa. Luca Stanziani (Developer) stima 1 giorno per implementazione + test + deploy del secondo shorturl in produzione."
     }
   ],
   "gantt": [
