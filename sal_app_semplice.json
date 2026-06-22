@@ -338,5 +338,273 @@
       "emoji": "🟢",
       "testo": "<strong>12 deliverable su 16 chiusi.</strong> oAuth Google e Apple consegnati. SMTP configurato. beta.semplice.it definito. Build in testing, feedback raccolto."
     }
+  ],
+  "oreIS": [
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Kick-off e allineamento iniziale con CT",
+      "categoria": "Coordinamento",
+      "owner": "Comerci",
+      "ore": 4
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Gestione SAL settimanali con CT (6 SAL × 1.5h)",
+      "categoria": "Coordinamento",
+      "owner": "Comerci",
+      "ore": 9
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Preparazione materiali per CT (API SuperVision + credenziali)",
+      "categoria": "Deliverable",
+      "owner": "Comerci",
+      "ore": 3
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Definizione lista campi CRM e logica invio lead",
+      "categoria": "Deliverable",
+      "owner": "Comerci",
+      "ore": 4
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Feedback mockup e design review",
+      "categoria": "Deliverable",
+      "owner": "Comerci",
+      "ore": 3
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Gestione account Apple Developer",
+      "categoria": "Deliverable",
+      "owner": "Comerci",
+      "ore": 3
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Gestione account Google Play",
+      "categoria": "Deliverable",
+      "owner": "Comerci",
+      "ore": 2
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Gestione oAuth Google e Apple",
+      "categoria": "Deliverable",
+      "owner": "Comerci",
+      "ore": 2
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Configurazione SMTP e comunicazione a CT",
+      "categoria": "Deliverable",
+      "owner": "Comerci",
+      "ore": 1
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Definizione dominio dev.semplice.it",
+      "categoria": "Deliverable",
+      "owner": "Comerci",
+      "ore": 1
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Conferma scope F1 (scoring bolletta fuori)",
+      "categoria": "Coordinamento",
+      "owner": "Comerci",
+      "ore": 1
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Risposta Gantt ribasato Giacomo",
+      "categoria": "Coordinamento",
+      "owner": "Comerci",
+      "ore": 2
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Coordinamento testing esteso + raccolta feedback",
+      "categoria": "Testing",
+      "owner": "Comerci",
+      "ore": 6
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Creazione modulo beta tester + gestione lista",
+      "categoria": "Testing",
+      "owner": "Comerci",
+      "ore": 3
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Gestione bug tracker (setup + supervisione)",
+      "categoria": "Testing",
+      "owner": "Comerci",
+      "ore": 4
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Creazione webservice/progetti di test",
+      "categoria": "Deliverable",
+      "owner": "Comerci",
+      "ore": 4
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Prime considerazioni su App e condivisione con CT",
+      "categoria": "Coordinamento",
+      "owner": "Comerci",
+      "ore": 2
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Avvio procedura DPA con CT",
+      "categoria": "Legal/Compliance",
+      "owner": "Comerci",
+      "ore": 3
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Definizione procedura cancellazione account",
+      "categoria": "Legal/Compliance",
+      "owner": "Comerci",
+      "ore": 4
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Coordinamento analisi Oltion: utente ≠ intestatario bolletta",
+      "categoria": "Analisi funzionale",
+      "owner": "Comerci",
+      "ore": 2
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Schema DB offerte: definizione approccio CT alimentato da IS",
+      "categoria": "Deliverable",
+      "owner": "Ortu",
+      "ore": 4
+    },
+    {
+      "fase": "F1 - MVP",
+      "attivita": "Definizione referente interno IS per alimentazione DB offerte",
+      "categoria": "Coordinamento",
+      "owner": "Ortu",
+      "ore": 2
+    },
+    {
+      "fase": "F2 - Offerte",
+      "attivita": "Gestione SAL settimanali con CT (est. 7 SAL × 1.5h)",
+      "categoria": "Coordinamento",
+      "owner": "Comerci",
+      "ore": 10
+    },
+    {
+      "fase": "F2 - Offerte",
+      "attivita": "Coordinamento integrazione SuperVision bidirezionale",
+      "categoria": "Deliverable",
+      "owner": "Comerci",
+      "ore": 6
+    },
+    {
+      "fase": "F2 - Offerte",
+      "attivita": "Review pannello admin (utenti, OCR log, KPI)",
+      "categoria": "Testing",
+      "owner": "Comerci",
+      "ore": 5
+    },
+    {
+      "fase": "F2 - Offerte",
+      "attivita": "Coordinamento flusso Switch guidato",
+      "categoria": "Deliverable",
+      "owner": "Comerci",
+      "ore": 4
+    },
+    {
+      "fase": "F2 - Offerte",
+      "attivita": "Pubblicazione App Store + Google Play",
+      "categoria": "Deliverable",
+      "owner": "Comerci",
+      "ore": 4
+    },
+    {
+      "fase": "F2 - Offerte",
+      "attivita": "Testing e validazione modulo offerte",
+      "categoria": "Testing",
+      "owner": "Comerci",
+      "ore": 8
+    },
+    {
+      "fase": "F2 - Offerte",
+      "attivita": "Gestione go-live e comunicazione Alkemy",
+      "categoria": "Coordinamento",
+      "owner": "Comerci",
+      "ore": 4
+    },
+    {
+      "fase": "F2 - Offerte",
+      "attivita": "Definizione schema DB offerte e mappatura campi",
+      "categoria": "Deliverable",
+      "owner": "Ortu",
+      "ore": 12
+    },
+    {
+      "fase": "F2 - Offerte",
+      "attivita": "Alimentazione iniziale DB offerte su piattaforma CT",
+      "categoria": "Deliverable",
+      "owner": "Ortu",
+      "ore": 8
+    },
+    {
+      "fase": "F2 - Offerte",
+      "attivita": "Testing e validazione confronto tariffe",
+      "categoria": "Testing",
+      "owner": "Ortu",
+      "ore": 6
+    },
+    {
+      "fase": "F3 - Fedeltà",
+      "attivita": "Gestione SAL settimanali con CT (est. 4 SAL × 1.5h)",
+      "categoria": "Coordinamento",
+      "owner": "Comerci",
+      "ore": 6
+    },
+    {
+      "fase": "F3 - Fedeltà",
+      "attivita": "Definizione catalogo reward Semplice360",
+      "categoria": "Deliverable",
+      "owner": "Comerci",
+      "ore": 6
+    },
+    {
+      "fase": "F3 - Fedeltà",
+      "attivita": "Definizione trigger loyalty e point values",
+      "categoria": "Deliverable",
+      "owner": "Comerci",
+      "ore": 4
+    },
+    {
+      "fase": "F3 - Fedeltà",
+      "attivita": "Handoff spec Semplice360 a CT",
+      "categoria": "Deliverable",
+      "owner": "Comerci",
+      "ore": 2
+    },
+    {
+      "fase": "F3 - Fedeltà",
+      "attivita": "Testing modulo fedeltà",
+      "categoria": "Testing",
+      "owner": "Comerci",
+      "ore": 6
+    },
+    {
+      "fase": "F3 - Fedeltà",
+      "attivita": "Review analytics e KPI dashboard",
+      "categoria": "Testing",
+      "owner": "Comerci",
+      "ore": 4
+    }
   ]
 }
