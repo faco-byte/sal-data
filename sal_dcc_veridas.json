@@ -39,8 +39,8 @@
     },
     {
       "label": "Stima residua",
-      "val": "~2 sett.",
-      "sub": "da Gian"
+      "val": "7 gg/u",
+      "sub": "solo backend — frontend TBD"
     },
     {
       "label": "Approvazione Andreas",
@@ -215,6 +215,11 @@
     }
   ],
   "log": [
+    {
+      "data": "22 giu 2026",
+      "autore": "Gianluca Pesce",
+      "testo": "Stima sviluppo lato Supervision (backend): 7 gg/u totali. Dettaglio: SPVS-4134 Definizione token nuovo flusso DCC+Verifica Documento (2 gg/u), SPVS-4137 Modifica api updateStatus per tracciare il Passa al BO (1 gg/u), SPVS-4135 Logica delle 24h Ambassador (1 gg/u), SPVS-4141 DCC+Verifica Documento in prodotti con firma digitale (3 gg/u). Manca ancora la stima frontend (Beniamino)."
+    },
     {
       "data": "22 giu 2026",
       "autore": "Fabrizio Comerci",
