@@ -40,6 +40,10 @@
     {
       "emoji": "🗓",
       "testo": "Strategia in due fasi: Fase 1 (breve termine) — implementare shorturl 2 tramite Bitly (da quotare). Fase 2 (lungo termine) — sviluppo interno sistema redirect su dominio Semplice.it (Alfio, CTO)."
+    },
+    {
+      "emoji": "💰",
+      "testo": "Confronto fornitori shorturl 2: Bitly €8.500/anno vs Sniply .200/anno (10.000 link/mese, API). In attesa di decisione."
     }
   ],
   "kpi": [
@@ -313,6 +317,11 @@
       "data": "19 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Stima implementazione Luca Stanziani rivista: 2 giorni (era 1)."
+    },
+    {
+      "data": "19 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Preventivo Sniply ricevuto: .200/anno per 10.000 redirect link/mese, API access, rate limit 500/min, support. Confronto: Bitly €8.500/anno vs Sniply .200/anno — stesso volume, stessa API. Sniply circa 7x più economico."
     }
   ],
   "gantt": [
