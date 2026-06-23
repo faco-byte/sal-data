@@ -204,6 +204,12 @@
       "owner": "FC",
       "scadenza": "da definire",
       "priorita": "media"
+    },
+    {
+      "testo": "Test con Alfio: verificare che Sniply shorti correttamente una URL già shortata da shorturl.gg",
+      "owner": "FC",
+      "scadenza": "da definire",
+      "priorita": "alta"
     }
   ],
   "stakeholder": [
@@ -256,9 +262,9 @@
       "tag": "RE"
     },
     {
-      "nome": "Alfio",
+      "nome": "Alfio Amato",
       "ruolo": "CTO",
-      "note": "Ha proposto sviluppo interno di un sistema di redirect su terzo livello Semplice.it come soluzione definitiva (fase 2).",
+      "note": "Ha proposto sviluppo interno sistema redirect su Semplice.it (fase 2). Coinvolto nel test Sniply + shorturl.gg.",
       "tag": "AL"
     }
   ],
@@ -327,6 +333,11 @@
       "data": "19 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Risposta SLA Sniply: nessuna uptime guarantee formale (SOC2 certificato, ridondanze multiple). Incident response per severita. Support lun-ven 8-17 ET, weekend 14-16 ET. Superamento limite: link continuano a funzionare, notifica overage. Trial API non disponibile — attiva solo dopo accordo annuale firmato e pagamento. Status page pubblica: https://status.snip.ly/"
+    },
+    {
+      "data": "19 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Preventivo Sniply condiviso internamente via email. Richiesto ad Alfio Amato (CTO) disponibilità per test: verificare che Sniply shorti correttamente una URL già shortata da shorturl.gg prima di procedere con acquisto."
     }
   ],
   "gantt": [
