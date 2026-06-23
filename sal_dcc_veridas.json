@@ -39,8 +39,8 @@
     },
     {
       "label": "Stima residua",
-      "val": "7 gg/u",
-      "sub": "solo backend — frontend TBD"
+      "val": "7 gg/u + 28-30h",
+      "sub": "backend + frontend completi"
     },
     {
       "label": "Approvazione Andreas",
@@ -215,6 +215,11 @@
     }
   ],
   "log": [
+    {
+      "data": "22 giu 2026",
+      "autore": "Beniamino",
+      "testo": "Stima sviluppo frontend landing: 28-30 ore. Stima complessiva progetto: 7 gg/u backend (Gianluca) + 28-30h frontend (Beniamino)."
+    },
     {
       "data": "22 giu 2026",
       "autore": "Gianluca Pesce",
