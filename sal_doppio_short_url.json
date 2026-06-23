@@ -114,6 +114,10 @@
     {
       "label": "Verbale Meeting Kida — 19 giu 2026",
       "url": "https://docs.google.com/document/d/1sBEXNhayDvAHsv-tdrJvA-mOI5iQq-o3tqhmpJr1qPQ/edit?tab=t.0"
+    },
+    {
+      "label": "Jira — SPVS-3909 Implementazione Sniply",
+      "url": "https://innovasemplice.atlassian.net/browse/SPVS-3909"
     }
   ],
   "deliverables": [
@@ -338,6 +342,11 @@
       "data": "19 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Preventivo Sniply condiviso internamente via email. Richiesto ad Alfio Amato (CTO) disponibilità per test: verificare che Sniply shorti correttamente una URL già shortata da shorturl.gg prima di procedere con acquisto."
+    },
+    {
+      "data": "19 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Sniply acquistato. Sviluppo assegnato a Luca Stanziani con partenza 23 giu 2026, stima 2gg. Ticket Jira: SPVS-3909."
     }
   ],
   "gantt": [
@@ -430,7 +439,7 @@
     },
     "shorturl_2": {
       "stato": "warn",
-      "nota": "Fase 1: Bitly (da quotare). Fase 2: sviluppo interno su Semplice.it (Alfio). Gap tecnico in corso di risoluzione."
+      "nota": "Sniply acquistato. Implementazione in corso — Luca Stanziani, partenza 23 giu, stima 2gg. Jira: SPVS-3909"
     },
     "carica": {
       "stato": "ok",
