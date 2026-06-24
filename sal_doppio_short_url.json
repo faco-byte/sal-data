@@ -347,6 +347,11 @@
       "data": "19 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Sniply acquistato. Sviluppo assegnato a Luca Stanziani con partenza 23 giu 2026, stima 2gg. Ticket Jira: SPVS-3909."
+    },
+    {
+      "data": "23 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Luca Stanziani non può iniziare oggi: bloccato su UAT ENI (API Self), possibili fix e ulteriori attività domani. Ha confermato che avviserà quando potrà iniziare. Partenza implementazione Sniply da ridefinire."
     }
   ],
   "gantt": [
@@ -439,7 +444,7 @@
     },
     "shorturl_2": {
       "stato": "warn",
-      "nota": "Sniply acquistato. Implementazione in corso — Luca Stanziani, partenza 23 giu, stima 2gg. Jira: SPVS-3909"
+      "nota": "Sniply acquistato. Implementazione in attesa: Luca Stanziani bloccato su priorità ENI. Partenza da ridefinire."
     },
     "carica": {
       "stato": "ok",
