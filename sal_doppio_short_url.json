@@ -352,6 +352,11 @@
       "data": "23 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Luca Stanziani non può iniziare oggi: bloccato su UAT ENI (API Self), possibili fix e ulteriori attività domani. Ha confermato che avviserà quando potrà iniziare. Partenza implementazione Sniply da ridefinire."
+    },
+    {
+      "data": "25 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Luca Stanziani ha iniziato lo sviluppo ma riscontra blocco tecnico: errore unsupported_grant_type nella richiesta access_token API Sniply (OAuth2). Contattato supporto Sniply per chiarimenti su grant_type corretto e formato richiesta."
     }
   ],
   "gantt": [
@@ -444,7 +449,7 @@
     },
     "shorturl_2": {
       "stato": "warn",
-      "nota": "Sniply acquistato. Implementazione in attesa: Luca Stanziani bloccato su priorità ENI. Partenza da ridefinire."
+      "nota": "Sviluppo in corso (Luca Stanziani). Blocco tecnico su integrazione API Sniply — in attesa risposta supporto."
     },
     "carica": {
       "stato": "ok",
