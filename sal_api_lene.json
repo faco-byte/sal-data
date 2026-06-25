@@ -18,8 +18,8 @@
       "testo": "Meeting con Francesco Corbi fissato per il 25/06 h10 — kick-off ufficiale sviluppo."
     },
     {
-      "emoji": "⚠️",
-      "testo": "Ciclo di sviluppo stimato 3-4 settimane a partire dal 25/06 — stima preliminare PM, non ancora validata con i dev. Da confermare dopo il meeting del 23/06 con Carlo."
+      "emoji": "✅",
+      "testo": "Stima comunicata a Lene il 23/06: avvio sviluppo 01/07, 3 settimane di sviluppo + 1 settimana UAT. Go-live stimato fine luglio 2026."
     },
     {
       "emoji": "🆕",
@@ -62,18 +62,18 @@
     },
     {
       "label": "Avanzamento",
-      "val": "25%",
-      "sub": "doc ricevuta, call fatta"
+      "val": "30%",
+      "sub": "meeting completati"
     },
     {
       "label": "Kick-off sviluppo",
-      "val": "25 giu",
-      "sub": "con Corbi"
+      "val": "01 lug",
+      "sub": "confermato a Lene"
     },
     {
       "label": "Consegna stimata",
-      "val": "fine lug",
-      "sub": "stima PM, da validare"
+      "val": "~29 lug",
+      "sub": "3 sett. dev + 1 UAT"
     }
   ],
   "fasi": [
@@ -170,9 +170,9 @@
   ],
   "rischi": [
     {
-      "livello": "alto",
-      "titolo": "Stima tempistica non validata con i dev",
-      "desc": "La stima di 3-4 settimane è stata definita dal PM senza confronto con Carlo Briganti. Potrebbe non riflettere la complessità tecnica reale. Da confermare nel meeting del 23/06 e aggiornare dopo il kick-off del 25/06."
+      "livello": "basso",
+      "titolo": "Stima tempistica comunicata a Lene",
+      "desc": "Stima inviata a Lene il 23/06 via email: avvio 01/07, 3 settimane sviluppo + 1 UAT. Validata con il team prima dell'invio. Rischio chiuso."
     },
     {
       "livello": "alto",
@@ -276,10 +276,10 @@
       "scadenza": "23 giu 2026"
     },
     {
-      "priorita": "alta",
+      "priorita": "completata",
       "owner": "FC",
-      "testo": "Comunicare a Lene tempi di sviluppo — validare prima con Carlo il 23/06",
-      "scadenza": "25 giu 2026"
+      "testo": "Stima tempi comunicata a Lene via email il 23/06: avvio 01/07, 3 sett. sviluppo + 1 UAT",
+      "scadenza": "23 giu 2026"
     },
     {
       "priorita": "alta",
@@ -342,6 +342,12 @@
       "ruolo": "Committente",
       "note": "Interlocutore lato cliente — gestito da Fabrizio",
       "tag": "AN"
+    },
+    {
+      "nome": "Zeno Pannunzio",
+      "ruolo": "Referente tecnico Lene",
+      "note": "Interlocutore tecnico lato Lene per lo sviluppo API. Thread mail via zeno.pannunzio@lene.it",
+      "tag": "ZP"
     }
   ],
   "log": [
@@ -379,6 +385,16 @@
       "data": "18 giu 2026",
       "autore": "Andreas",
       "testo": "Risposta email: audit Lene non impatta le API (modifiche al contratto). Per lista operatori BO, riferimento è Simona."
+    },
+    {
+      "data": "23 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Email inviata a Lene (Zeno Pannunzio + team): avvio sviluppo 01/07, 3 settimane sviluppo + 1 settimana UAT. In CC: Alfio, Antonio Gómez, Edoardo, Tharushi, Alessandro, Giovanni, Stefano."
+    },
+    {
+      "data": "23 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Meeting con Carlo Briganti e Francesco Corbi completati (23/06 e 25/06). Kick-off sviluppo confermato per 01/07."
     }
   ],
   "gantt": [
@@ -449,10 +465,10 @@
         "fine": "16 lug"
       },
       "revised": {
-        "inizio": "25 giu",
-        "fine": "23 lug"
+        "inizio": "01 lug",
+        "fine": "22 lug"
       },
-      "startWeek": 1.0,
+      "startWeek": 1.5,
       "durationBaseline": 3,
       "durationRevised": 4,
       "avanzamento": 0,
@@ -469,8 +485,8 @@
         "fine": "23 lug"
       },
       "revised": {
-        "inizio": "23 lug",
-        "fine": "30 lug"
+        "inizio": "22 lug",
+        "fine": "29 lug"
       },
       "startWeek": 4,
       "durationBaseline": 1,
