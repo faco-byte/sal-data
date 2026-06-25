@@ -52,6 +52,14 @@
     {
       "emoji": "🆕",
       "testo": "Lene si aspetta i tempi di sviluppo entro la settimana prossima (25/06). Le comunicazioni tecniche avverranno via thread mail."
+    },
+    {
+      "emoji": "🆕",
+      "testo": "Prodotti Lene disponibili (da Filippucci Pietro, 25/06): 4 prodotti — Luce prezzo fisso, Gas prezzo fisso, Gas prezzo fisso cross selling (sconto già clienti luce / dual), Indicizzata luce (in arrivo a breve)."
+    },
+    {
+      "emoji": "🆕",
+      "testo": "Processi disponibili: Voltura cambio fornitore (solo luce) e Switch-In (sia luce che gas)."
     }
   ],
   "kpi": [
@@ -304,6 +312,12 @@
       "owner": "FC",
       "testo": "Email inviata a Zeno (Lene) con richiesta: sourceDetail, parametri non documentati (randomId, identificationDocumentNumber), liste dati (distributori, POD, REMI), conferma esclusione Step 5",
       "scadenza": "25 giu 2026"
+    },
+    {
+      "priorita": "completata",
+      "owner": "FC",
+      "testo": "Ricevute da Filippucci Pietro (Lene) info su processi e prodotti disponibili — necessarie per lo sviluppo",
+      "scadenza": "25 giu 2026"
     }
   ],
   "stakeholder": [
@@ -354,6 +368,12 @@
       "ruolo": "Referente tecnico Lene",
       "note": "Interlocutore tecnico lato Lene per lo sviluppo API. Thread mail via zeno.pannunzio@lene.it",
       "tag": "ZP"
+    },
+    {
+      "nome": "Filippucci Pietro",
+      "ruolo": "Referente Lene",
+      "note": "Contatto Lene — ha fornito info su processi e prodotti disponibili il 25/06",
+      "tag": "FP"
     }
   ],
   "log": [
@@ -406,6 +426,11 @@
       "data": "25 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Email inviata a Zeno Pannunzio (Lene): richiesta 4 informazioni pre-sviluppo — sourceDetail, parametri non documentati, liste dati, conferma Step 5. In attesa di risposta."
+    },
+    {
+      "data": "25 giu 2026",
+      "autore": "Filippucci Pietro (Lene)",
+      "testo": "Fornite info su processi e prodotti: processi disponibili: Voltura cambio fornitore (solo luce) e Switch (luce + gas). Prodotti: 4 — Luce prezzo fisso, Gas prezzo fisso, Gas prezzo fisso cross selling, Indicizzata luce (in arrivo). Info richieste da Francesco Corbi per lo sviluppo."
     }
   ],
   "gantt": [
