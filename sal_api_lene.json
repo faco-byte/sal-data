@@ -298,6 +298,12 @@
       "owner": "CB",
       "testo": "Analizzare collection Postman Lene prima del meeting del 23/06",
       "scadenza": "22 giu 2026"
+    },
+    {
+      "priorita": "completata",
+      "owner": "FC",
+      "testo": "Email inviata a Zeno (Lene) con richiesta: sourceDetail, parametri non documentati (randomId, identificationDocumentNumber), liste dati (distributori, POD, REMI), conferma esclusione Step 5",
+      "scadenza": "25 giu 2026"
     }
   ],
   "stakeholder": [
@@ -395,6 +401,11 @@
       "data": "23 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Meeting con Carlo Briganti e Francesco Corbi completati (23/06 e 25/06). Kick-off sviluppo confermato per 01/07."
+    },
+    {
+      "data": "25 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Email inviata a Zeno Pannunzio (Lene): richiesta 4 informazioni pre-sviluppo — sourceDetail, parametri non documentati, liste dati, conferma Step 5. In attesa di risposta."
     }
   ],
   "gantt": [
