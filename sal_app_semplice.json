@@ -109,6 +109,26 @@
       "stato": "progress",
       "titolo": "Procedura cancellazione account — allineamento app/CRM",
       "note": "In corso — consultare team legale e responsabili dati. Verificare tempistiche conservazione post chiusura profilo."
+    },
+    {
+      "stato": "warn",
+      "titolo": "F2 — Scope proposto da CT: Login Google e Apple",
+      "note": "Proposto da Jacopo (CT) per F2 — da confermare. Login Google già in lavorazione via Supabase."
+    },
+    {
+      "stato": "warn",
+      "titolo": "F2 — Scope proposto da CT: Tracking & Analytics (Firebase Analytics + Crashlytics)",
+      "note": "Proposto da Jacopo (CT) per F2 — stack suggerito: Firebase Analytics + Crashlytics. Da approvare."
+    },
+    {
+      "stato": "warn",
+      "titolo": "F2 — Scope proposto da CT: Accesso IS a DB tariffe per gestione offerte in autonomia",
+      "note": "Proposto da Jacopo (CT) per F2 — IS avrà accesso diretto al DB offerte per alimentarlo in autonomia. Da definire flusso operativo e referente IS."
+    },
+    {
+      "stato": "err",
+      "titolo": "F2 — Scope proposto da CT: Notifiche push — indicazioni IS richieste",
+      "note": "🚨 Input richiesto da IS — CT chiede indicazioni su quali notifiche inviare e in quali circostanze. Da definire prima del prossimo SAL."
     }
   ],
   "rischi": [
@@ -141,9 +161,32 @@
       "livello": "medio",
       "titolo": "Disallineamento utente app / intestatario bolletta — gap legal e funzionale",
       "desc": "Caso reale: figlio usa l'app con bollette intestate ai genitori. Apre questioni su mandato/delega, consenso al trattamento dati del terzo, e flusso switch (chi firma il contratto?). Analisi funzionale affidata a Oltion. Da verificare anche come gestiscono la casistica i competitor (Billoo, Switcho)."
+    },
+    {
+      "livello": "medio",
+      "titolo": "Raccolta delega e stati avanzamento pratiche posticipati a F3",
+      "desc": "CT propone di spostare in F3 la raccolta delega e gli stati avanzamento richieste (contattato/convertito/ecc.) per via di punti ancora da chiarire. Impatta sul flusso switch completo e sull'integrazione SuperVision bidirezionale prevista in F2. Da valutare impatto contrattuale."
     }
   ],
   "azioni": [
+    {
+      "owner": "IS",
+      "testo": "Comerci — Definire e inviare a CT indicazioni su notifiche push: tipologie, trigger e circostanze di invio",
+      "scadenza": "Prima del prossimo SAL",
+      "priorita": "alta"
+    },
+    {
+      "owner": "IS+CT",
+      "testo": "Allineamento su scope F2 proposto da CT (Jacopo) — confermare: Login social, Firebase Analytics, DB tariffe, notifiche",
+      "scadenza": "Prossimo SAL",
+      "priorita": "alta"
+    },
+    {
+      "owner": "IS",
+      "testo": "Valutare impatto contrattuale spostamento raccolta delega + stati avanzamento pratiche da F2 a F3",
+      "scadenza": "Prossimo SAL",
+      "priorita": "media"
+    },
     {
       "owner": "IS",
       "testo": "Comerci — Creazione webservice/progetti di test: (1) progetto test default, (2) progetto test con codice provider",
