@@ -1,7 +1,7 @@
 {
   "titolo": "Copilot Operatore",
-  "data": "19 giugno 2026",
-  "badge": "Test interno — anomalie in analisi",
+  "data": "25 giugno 2026",
+  "badge": "Fermo tecnico — verifiche centralino",
   "provider": "Fedro",
   "integrazione": "SuperVision",
   "goLive": "TBD",
@@ -44,24 +44,20 @@
   ],
   "sommario": [
     {
-      "colore": "#BA7517",
-      "testo": "Test interno in corso — owner: Alessia Selvaggio (Operations)."
-    },
-    {
       "colore": "#E24B4A",
-      "testo": "Anomalia 1: su chiamate inbound Copilot non trascrive e non fornisce suggerimenti. Errore di registrazione rilevato (icona rossa). Probabile problema di comunicazione centralino → sistemi Copilot."
-    },
-    {
-      "colore": "#E24B4A",
-      "testo": "Anomalia 2: in caso di recall senza esitazione Copilot non si apre. Dopo 7 minuti di conversazione nessun suggerimento erogato."
+      "testo": "Copilot fermo dal 22/06 al 29/06 per verifiche sulle anomalie rilevate sul centralino."
     },
     {
       "colore": "#BA7517",
-      "testo": "Problema Twilio (WhatsApp) escluso dall'analisi — non correlato a Copilot. Su alcuni ID confermati suggerimenti e trascrizioni presenti (es. ID 21110406)."
+      "testo": "Anomalie aperte: trascrizione inbound non funzionante e mancata apertura Copilot in recall senza esitazione."
     },
     {
       "colore": "#378ADD",
-      "testo": "Registrazioni disponibili per analisi latenza: 1 — insufficiente. Necessario raccogliere ulteriori sessioni."
+      "testo": "Ripresa del test interno prevista dopo il 29/06, a esito verifiche centralino."
+    },
+    {
+      "colore": "#378ADD",
+      "testo": "Registrazioni per analisi latenza: 1 — insufficiente. Raccolta ripresa dopo risoluzione anomalie."
     }
   ],
   "roadmap": [
@@ -166,6 +162,11 @@
   "rischi": [
     {
       "livello": "alto",
+      "titolo": "Fermo tecnico 22/06–29/06 — slittamento timeline",
+      "desc": "Copilot sospeso per verifiche anomalie centralino. Il fermo impatta la raccolta dati pilota e potrebbe slittare il rollout esteso."
+    },
+    {
+      "livello": "alto",
       "titolo": "Copilot non trascrive su chiamate inbound",
       "desc": "Errore di registrazione rilevato (icona rossa). Il sistema non recepisce gli interventi di operatore e cliente. Probabile problema di comunicazione tra centralino e sistemi Copilot. In analisi con Fedro."
     },
@@ -214,13 +215,13 @@
     {
       "owner": "IS+Fedro",
       "testo": "Investigare anomalia trascrizione su chiamate inbound — analisi log centralino vs sistemi Copilot",
-      "scadenza": "Urgente",
+      "scadenza": "In verifica — fermo fino al 29/06",
       "priorita": "alta"
     },
     {
       "owner": "IS+Fedro",
       "testo": "Investigare mancata apertura Copilot in caso di recall senza esitazione",
-      "scadenza": "Urgente",
+      "scadenza": "In verifica — fermo fino al 29/06",
       "priorita": "alta"
     },
     {
