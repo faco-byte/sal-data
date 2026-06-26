@@ -446,7 +446,7 @@
     },
     {
       "emoji": "🟡",
-      "testo": "<strong>F2 scope allineato con CT.</strong> 4 macrotemi: Login Google/Apple (già avviato), Firebase Analytics + Crashlytics, DB tariffe autonomo, Notifiche push. Dipendenze IS: specifiche notifiche e tracking (Oltion)."
+      "testo": "<strong>F2 scope allineato con CT — 4 macrotemi definiti.</strong> (1) Login Google/Apple: avviato ✓ (2) Firebase Analytics + Crashlytics: dipende da specifiche IS (3) DB tariffe autonomo: CT crea istanza, IS gestisce in autonomia (4) Notifiche push: 🚨 specifiche IS urgenti. Raccolta delega e stati pratiche spostati a F3."
     },
     {
       "emoji": "🟡",
@@ -727,6 +727,42 @@
       "categoria": "Testing",
       "owner": "Comerci",
       "ore": 4
+    }
+  ],
+  "scopeF2": [
+    {
+      "id": 1,
+      "titolo": "Login Google e Apple",
+      "stato": "ok",
+      "note": "CT indipendente — sviluppo già avviato da Simone. oAuth IS già consegnato.",
+      "dipendenze": []
+    },
+    {
+      "id": 2,
+      "titolo": "Tracking & Analytics — Firebase Analytics + Crashlytics",
+      "stato": "warn",
+      "note": "Stack deciso: Firebase Analytics + Crashlytics. IS deve inviare specifiche su cosa tracciare (Comerci + Oltion).",
+      "dipendenze": [
+        "IS — specifiche tracking da Oltion"
+      ]
+    },
+    {
+      "id": 3,
+      "titolo": "DB tariffe autonomo — accesso IS per gestione offerte in tempo reale",
+      "stato": "warn",
+      "note": "CT creerà istanza dedicata con le offerte IS. IS potrà modificare tariffe in autonomia e in tempo reale. Variabili DB allineate al calcolo risparmio attuale. Referente interno IS da definire.",
+      "dipendenze": [
+        "IS — definire referente interno per alimentazione DB"
+      ]
+    },
+    {
+      "id": 4,
+      "titolo": "Notifiche push",
+      "stato": "err",
+      "note": "🚨 Input IS urgente — CT chiede indicazioni su tipologie di notifiche, trigger e circostanze di invio. Oltion coinvolto.",
+      "dipendenze": [
+        "IS — specifiche notifiche (Comerci + Oltion)"
+      ]
     }
   ]
 }
