@@ -111,9 +111,9 @@
       "note": "In corso — consultare team legale e responsabili dati. Verificare tempistiche conservazione post chiusura profilo."
     },
     {
-      "stato": "warn",
+      "stato": "ok",
       "titolo": "F2 — Scope proposto da CT: Login Google e Apple",
-      "note": "Proposto da Jacopo (CT) per F2 — da confermare. Login Google già in lavorazione via Supabase."
+      "note": "Confermato ✓ — CT indipendente su questo punto, sviluppo già avviato (Simone)"
     },
     {
       "stato": "warn",
@@ -133,7 +133,37 @@
     {
       "stato": "ok",
       "titolo": "Nuova build rilasciata da CT",
-      "note": "Rilasciata il 26/06 ✓ — in distribuzione ai tester"
+      "note": "26/06 ✓ — build con pagina profilo + invio lead corretto al CRM. Fix font in valutazione per inclusione."
+    },
+    {
+      "stato": "warn",
+      "titolo": "Bug noti CT da aggiungere al registro bug condiviso",
+      "note": "CT aggiornerà il file condiviso con i bug già noti lato sviluppo per evitare duplicazioni con le segnalazioni IS"
+    },
+    {
+      "stato": "warn",
+      "titolo": "Bug iOS — caricamento PDF bloccato (iPhone 13 mini, iOS 17)",
+      "note": "Segnalato da tester. Bolletta caricata ma analisi non parte. Comerci chiede retesting con nuova build; se si replica, condividere bolletta con dati oscurati per analisi log CT"
+    },
+    {
+      "stato": "warn",
+      "titolo": "Fix font bloccato (indipendente da impostazioni dispositivo)",
+      "note": "In lavorazione — approccio Switcho. Potrebbe essere incluso nella build di oggi; se no, priorità settimana prossima"
+    },
+    {
+      "stato": "warn",
+      "titolo": "Logica calcolo risparmio — testo trasparenza da revisionare con legale IS",
+      "note": "Pop-up già presente in app (stile Switcho). Testo da revisionare e \"legalizzare\" — in carico a IS"
+    },
+    {
+      "stato": "warn",
+      "titolo": "Specifiche tracking/analytics da inviare a CT (con Oltion)",
+      "note": "CT ha già una lista di base. IS (Oltion) deve validare/integrare con knowhow specifico sul prodotto"
+    },
+    {
+      "stato": "warn",
+      "titolo": "Video demo app per conferenza 3 luglio",
+      "note": "Comerci realizzerà video con build stabile — CT fornisce build a prova di bomba per facilitare registrazione"
     }
   ],
   "rischi": [
@@ -178,12 +208,6 @@
       "owner": "IS",
       "testo": "Comerci — Definire e inviare a CT indicazioni su notifiche push: tipologie, trigger e circostanze di invio",
       "scadenza": "Prima del prossimo SAL",
-      "priorita": "alta"
-    },
-    {
-      "owner": "IS+CT",
-      "testo": "Allineamento su scope F2 proposto da CT (Jacopo) — confermare: Login social, Firebase Analytics, DB tariffe, notifiche",
-      "scadenza": "Prossimo SAL",
       "priorita": "alta"
     },
     {
@@ -263,6 +287,48 @@
       "testo": "Oltion — Analisi funzionale e competitive: gestione caso utente app ≠ intestatario bolletta (incl. implicazioni legal su mandato e switch)",
       "scadenza": "ASAP",
       "priorita": "media"
+    },
+    {
+      "owner": "IS",
+      "testo": "Comerci — Chiedere al tester iOS di ritestare caricamento PDF con nuova build; se si replica, condividere bolletta con dati oscurati",
+      "scadenza": "Entro fine settimana",
+      "priorita": "alta"
+    },
+    {
+      "owner": "IS",
+      "testo": "Comerci — Specificare a CT funzionamento e modalità integrazione delega nel funnel (flag signup vs OTP)",
+      "scadenza": "Prima avvio F3",
+      "priorita": "media"
+    },
+    {
+      "owner": "IS",
+      "testo": "Comerci + Oltion — Inviare a CT specifiche per tracking attività in-app",
+      "scadenza": "ASAP",
+      "priorita": "alta"
+    },
+    {
+      "owner": "IS",
+      "testo": "Comerci — Preparare video demo app per conferenza 3 luglio con build stabile CT",
+      "scadenza": "3 lug 2026",
+      "priorita": "alta"
+    },
+    {
+      "owner": "IS",
+      "testo": "IS Legal — Revisionare testo logica calcolo risparmio in app (pop-up) per conformità",
+      "scadenza": "Prima go-live F2",
+      "priorita": "media"
+    },
+    {
+      "owner": "CT",
+      "testo": "CT (Jacopo/Simone) — Aggiornare registro bug condiviso con bug noti lato sviluppo",
+      "scadenza": "Oggi",
+      "priorita": "alta"
+    },
+    {
+      "owner": "CT",
+      "testo": "CT (Simone) — Rilasciare build con pagina profilo + invio lead CRM corretto (+ fix font se pronto)",
+      "scadenza": "Oggi 26/06",
+      "priorita": "alta"
     }
   ],
   "fasi": [
@@ -372,23 +438,27 @@
   "sommario": [
     {
       "emoji": "🟡",
-      "testo": "<strong>F1 in chiusura — avanzamento al 93%.</strong> Tab profilo completata, integrazioni social posticipate a F2. Sistema OTA disponibile per patch critiche. Rimangono aperti: DPA, cancellazione account e ottimizzazioni UI."
+      "testo": "<strong>F1 in chiusura bug fixing — build con pagina profilo in rilascio oggi.</strong> Funzionalità F1 complete. In corso: fix font, bug caricamento PDF su iOS, invio lead al CRM. Avvio sviluppo F2 dalla prossima settimana."
     },
     {
       "emoji": "🔴",
-      "testo": "<strong>DPA non firmato prima del go-live — rischio GDPR diretto.</strong> Le bollette degli utenti transitano sui sistemi OCR di Comparetech. CT è responsabile del trattamento ex Art. 28 GDPR. Va formalizzato prima del go-live F1."
+      "testo": "<strong>DPA non firmato — bloccante pre go-live.</strong> Le bollette transitano sui sistemi OCR di CT. Art. 28 GDPR. Formalizzare prima del go-live F1."
+    },
+    {
+      "emoji": "🟡",
+      "testo": "<strong>F2 scope allineato con CT.</strong> 4 macrotemi: Login Google/Apple (già avviato), Firebase Analytics + Crashlytics, DB tariffe autonomo, Notifiche push. Dipendenze IS: specifiche notifiche e tracking (Oltion)."
+    },
+    {
+      "emoji": "🟡",
+      "testo": "<strong>Raccolta delega spostata a F3.</strong> Complessità tecnica e spec da definire. Comerci specificherà a CT il funzionamento prima dell'avvio F3."
     },
     {
       "emoji": "🔴",
-      "testo": "<strong>Procedura cancellazione account non definita.</strong> Allineamento app/CRM non ancora chiarito. Richiede consulto legale prima del go-live per conformità GDPR."
-    },
-    {
-      "emoji": "⚠️",
-      "testo": "<strong>DB offerte affidato a Comparetech — dipendenza strutturale.</strong> Per sbloccare F2, le offerte saranno veicolate tramite DB CT in attesa del DB Open Data ARERA (post-Reesonance). Aumenta la dipendenza dal vendor."
+      "testo": "<strong>Video demo per conferenza 3 luglio.</strong> Comerci realizzerà video con build stabile CT. CT si impegna a fornire versione a prova di bomba."
     },
     {
       "emoji": "🟢",
-      "testo": "<strong>12 deliverable su 16 chiusi.</strong> oAuth Google e Apple consegnati. SMTP configurato. beta.semplice.it definito. Build in testing, feedback raccolto."
+      "testo": "<strong>Andrea Ortu confermato tester principale.</strong> Tutte le build inviate ad Andrea. Processo bug tracking condiviso IS/CT attivo."
     }
   ],
   "oreIS": [
