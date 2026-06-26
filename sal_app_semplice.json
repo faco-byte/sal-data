@@ -1,7 +1,7 @@
 {
-  "date": "19 giugno 2026",
+  "date": "26 giugno 2026",
   "fase": "F1 — MVP",
-  "avanzamento": 93,
+  "avanzamento": 95,
   "consegnaStimata": "Chiusura F1 imminente",
   "ritardo": "+4 sett.",
   "deliverables": [
@@ -53,7 +53,7 @@
     {
       "stato": "ok",
       "titolo": "Build in testing esteso rilasciata",
-      "note": "✓ Rilasciata — feedback richiesto entro venerdì. Registro bug: docs.google.com/spreadsheets/d/1QO6niGV7D2JTIAuQCXynaKGYXOn0hpV1"
+      "note": "Build aggiornata rilasciata il 26/06 ✓"
     },
     {
       "stato": "progress",
@@ -129,6 +129,11 @@
       "stato": "err",
       "titolo": "F2 — Scope proposto da CT: Notifiche push — indicazioni IS richieste",
       "note": "🚨 Input richiesto da IS — CT chiede indicazioni su quali notifiche inviare e in quali circostanze. Da definire prima del prossimo SAL."
+    },
+    {
+      "stato": "ok",
+      "titolo": "Nuova build rilasciata da CT",
+      "note": "Rilasciata il 26/06 ✓ — in distribuzione ai tester"
     }
   ],
   "rischi": [
