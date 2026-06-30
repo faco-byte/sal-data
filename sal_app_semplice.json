@@ -743,7 +743,7 @@
       "stato": "ok",
       "note": "Consegnato ✓ 30/06 — Firebase Analytics + Crashlytics attivati, accesso fornito a Simone Bernardi (CT). Restano da inviare specifiche tracking eventi (Oltion).",
       "dipendenze": [
-        "IS — specifiche tracking eventi da Oltion (ancora aperte)"
+        "Oltion — specifiche tracking eventi (in carico)"
       ]
     },
     {
@@ -759,9 +759,9 @@
       "id": 4,
       "titolo": "Notifiche push",
       "stato": "err",
-      "note": "🚨 Input IS urgente — CT chiede indicazioni su tipologie di notifiche, trigger e circostanze di invio. Oltion coinvolto.",
+      "note": "🚨 Input IS urgente — CT chiede indicazioni su tipologie di notifiche, trigger e circostanze di invio. In carico a Oltion.",
       "dipendenze": [
-        "IS — specifiche notifiche (Comerci + Oltion)"
+        "Oltion — specifiche sistema notifiche (in carico)"
       ]
     }
   ]
