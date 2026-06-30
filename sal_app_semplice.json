@@ -1,5 +1,5 @@
 {
-  "date": "26 giugno 2026",
+  "date": "30 giugno 2026",
   "fase": "F1 — MVP",
   "avanzamento": 95,
   "consegnaStimata": "Chiusura F1 imminente",
@@ -740,10 +740,10 @@
     {
       "id": 2,
       "titolo": "Tracking & Analytics — Firebase Analytics + Crashlytics",
-      "stato": "warn",
-      "note": "Stack deciso: Firebase Analytics + Crashlytics. IS deve inviare specifiche su cosa tracciare (Comerci + Oltion).",
+      "stato": "ok",
+      "note": "Consegnato ✓ 30/06 — Firebase Analytics + Crashlytics attivati, accesso fornito a Simone Bernardi (CT). Restano da inviare specifiche tracking eventi (Oltion).",
       "dipendenze": [
-        "IS — specifiche tracking da Oltion"
+        "IS — specifiche tracking eventi da Oltion (ancora aperte)"
       ]
     },
     {
