@@ -216,6 +216,11 @@
   ],
   "log": [
     {
+      "data": "30 giu 2026",
+      "autore": "Gianluca Pesce",
+      "testo": "Beniamino ha iniziato i suoi sviluppi frontend. Gian ha momentaneamente sospeso il lavoro su Core per anticipare gli sviluppi su Vision Provider/Helper/Core necessari a SPVS-4137 (modifica api updateStatus per tracciare il Passa al BO), attualmente non gestito, per consentire a Beniamino di esitare in Passa al BO. Cambio di priorità per non bloccare il frontend."
+    },
+    {
       "data": "22 giu 2026",
       "autore": "Beniamino",
       "testo": "Stima sviluppo frontend landing: 28-30 ore. Stima complessiva progetto: 7 gg/u backend (Gianluca) + 28-30h frontend (Beniamino)."
