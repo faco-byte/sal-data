@@ -357,6 +357,11 @@
       "data": "25 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Luca Stanziani ha iniziato lo sviluppo ma riscontra blocco tecnico: errore unsupported_grant_type nella richiesta access_token API Sniply (OAuth2). Contattato supporto Sniply per chiarimenti su grant_type corretto e formato richiesta."
+    },
+    {
+      "data": "30 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Aggiornamento da Luca Stanziani: il blocco OAuth2 su Sniply è stato risolto venerdì (con supporto di Alfio Amato) — la documentazione Sniply non corrispondeva al comportamento reale dell API. Resta da terminare l implementazione su utility e core. Stima effort: 8 ore (stima originale). Luca è impegnato anche su altre urgenze (Vodafone, supporto BI) quindi non può garantire una data certa. Data di consegna indicativa: giovedi."
     }
   ],
   "gantt": [
@@ -449,7 +454,7 @@
     },
     "shorturl_2": {
       "stato": "warn",
-      "nota": "Sviluppo in corso (Luca Stanziani). Blocco tecnico su integrazione API Sniply — in attesa risposta supporto."
+      "nota": "Blocco API Sniply risolto. Implementazione in corso, Luca conteso su altre urgenze. Consegna indicativa giovedi, non garantita."
     },
     "carica": {
       "stato": "ok",
