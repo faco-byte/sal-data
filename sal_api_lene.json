@@ -374,6 +374,12 @@
       "ruolo": "Referente Lene",
       "note": "Contatto Lene — ha fornito info su processi e prodotti disponibili il 25/06",
       "tag": "FP"
+    },
+    {
+      "nome": "Luca Stanziani",
+      "ruolo": "Sviluppatore",
+      "note": "Dev sul progetto API Lene. Aggiornato su prodotti e processi Lene il 25/06.",
+      "tag": "LS"
     }
   ],
   "log": [
@@ -431,6 +437,11 @@
       "data": "25 giu 2026",
       "autore": "Filippucci Pietro (Lene)",
       "testo": "Fornite info su processi e prodotti: processi disponibili: Voltura cambio fornitore (solo luce) e Switch (luce + gas). Prodotti: 4 — Luce prezzo fisso, Gas prezzo fisso, Gas prezzo fisso cross selling, Indicizzata luce (in arrivo). Info richieste da Francesco Corbi per lo sviluppo."
+    },
+    {
+      "data": "25 giu 2026",
+      "autore": "Fabrizio Comerci",
+      "testo": "Luca Stanziani (dev) aggiornato su dettagli prodotti e processi Lene (4 prodotti, 2 processi)."
     }
   ],
   "gantt": [
