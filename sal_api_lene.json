@@ -70,12 +70,12 @@
       "testo": "identificationDocumentNumber chiarito: è un campo del body di POST /lead (non URL), contiene il numero del documento di riconoscimento. Dettagli nel portale MuleSoft."
     },
     {
-      "emoji": "⏳",
-      "testo": "sourceDetail e liste dati (distributori, POD, REMI): Zeno ha girato la domanda ai colleghi Processi/CRM Lene (Tocci, Tomasino — Deloitte). In attesa di risposta."
+      "emoji": "✅",
+      "testo": "sourceDetail confermato da Tocci (Deloitte): valore = \"InnovaSemplice\"."
     },
     {
-      "emoji": "⏳",
-      "testo": "Step 5 (upload documento): Zeno conferma che il contratto è generato da Lene, ma attende conferma formale da Tocci (Deloitte). Molto probabile esclusione dello step."
+      "emoji": "✅",
+      "testo": "Step 5 (POST /document/upload) escluso: confermato da Tocci (Deloitte) — il contratto viene generato direttamente dai sistemi Lene."
     }
   ],
   "kpi": [
@@ -236,7 +236,7 @@
     {
       "livello": "medio",
       "titolo": "Liste dati Lene non ancora ricevute",
-      "desc": "Zeno ha girato la richiesta a Tocci e Tomasino (Deloitte/Processi CRM). In attesa di risposta con date di consegna. Blocco potenziale per lo sviluppo se arrivano in ritardo."
+      "desc": "Tocci ha rigirato la richiesta a Zeno Pannunzio (Lene). In attesa di risposta. Unico punto ancora aperto prima dell'avvio sviluppo."
     },
     {
       "livello": "medio",
@@ -312,10 +312,10 @@
       "scadenza": "Avvio sviluppo"
     },
     {
-      "priorita": "alta",
+      "priorita": "completata",
       "owner": "FC",
-      "testo": "Attesa risposta da Tocci/Tomasino (Deloitte) per liste dati (distributori, POD, REMI) e valore sourceDetail — sollecitare se no risposta entro 27/06",
-      "scadenza": "27 giu 2026"
+      "testo": "Sollecitare Zeno Pannunzio per liste dati (distributori, POD, REMI) — Tocci ha rigirato a lui",
+      "scadenza": "02 lug 2026"
     },
     {
       "priorita": "media",
@@ -336,10 +336,10 @@
       "scadenza": "25 giu 2026"
     },
     {
-      "priorita": "alta",
+      "priorita": "completata",
       "owner": "FC",
-      "testo": "Attesa conferma formale da Tocci (Deloitte) su esclusione Step 5 (upload documento) — seguire up se no risposta entro 27/06",
-      "scadenza": "27 giu 2026"
+      "testo": "Step 5 escluso — confermato da Tocci (Deloitte) il 01/07",
+      "scadenza": "01 lug 2026"
     },
     {
       "priorita": "alta",
@@ -493,6 +493,11 @@
       "data": "25 giu 2026",
       "autore": "Zeno Pannunzio (Lene)",
       "testo": "Risposta email pre-sviluppo: randomId chiarito (in Credenziali doc). identificationDocumentNumber è campo body POST /lead. sourceDetail e liste dati girate a Tocci/Tomasino (Deloitte). Step 5 probabile esclusione ma attende conferma Tocci."
+    },
+    {
+      "data": "01 lug 2026",
+      "autore": "Tocci Alessandro (Deloitte)",
+      "testo": "Risposta nel thread: sourceDetail = InnovaSemplice. Step 5 confermato escluso (contratto generato da Lene). Liste dati rigirate a Zeno Pannunzio."
     }
   ],
   "gantt": [
