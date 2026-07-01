@@ -60,6 +60,22 @@
     {
       "emoji": "🆕",
       "testo": "Processi disponibili: Voltura cambio fornitore (solo luce) e Switch-In (sia luce che gas)."
+    },
+    {
+      "emoji": "✅",
+      "testo": "randomId chiarito: è specifico per ambiente, già presente in Credenziali_Comparatori_Innova_Semplice.docx. Non è un parametro da risolvere."
+    },
+    {
+      "emoji": "✅",
+      "testo": "identificationDocumentNumber chiarito: è un campo del body di POST /lead (non URL), contiene il numero del documento di riconoscimento. Dettagli nel portale MuleSoft."
+    },
+    {
+      "emoji": "⏳",
+      "testo": "sourceDetail e liste dati (distributori, POD, REMI): Zeno ha girato la domanda ai colleghi Processi/CRM Lene (Tocci, Tomasino — Deloitte). In attesa di risposta."
+    },
+    {
+      "emoji": "⏳",
+      "testo": "Step 5 (upload documento): Zeno conferma che il contratto è generato da Lene, ma attende conferma formale da Tocci (Deloitte). Molto probabile esclusione dello step."
     }
   ],
   "kpi": [
@@ -220,7 +236,7 @@
     {
       "livello": "medio",
       "titolo": "Liste dati Lene non ancora ricevute",
-      "desc": "Lene deve fornire: lista distributori abilitati, lista POD (6 caratteri), REMI gas/comuni abilitati, campo sourceDetail. Senza questi dati lo sviluppo non può essere completato."
+      "desc": "Zeno ha girato la richiesta a Tocci e Tomasino (Deloitte/Processi CRM). In attesa di risposta con date di consegna. Blocco potenziale per lo sviluppo se arrivano in ritardo."
     },
     {
       "livello": "medio",
@@ -296,10 +312,10 @@
       "scadenza": "Avvio sviluppo"
     },
     {
-      "priorita": "media",
+      "priorita": "alta",
       "owner": "FC",
-      "testo": "Sollecitare Lene per invio liste: distributori abilitati, POD, REMI, campo sourceDetail",
-      "scadenza": "25 giu 2026"
+      "testo": "Attesa risposta da Tocci/Tomasino (Deloitte) per liste dati (distributori, POD, REMI) e valore sourceDetail — sollecitare se no risposta entro 27/06",
+      "scadenza": "27 giu 2026"
     },
     {
       "priorita": "media",
@@ -318,6 +334,24 @@
       "owner": "FC",
       "testo": "Ricevute da Filippucci Pietro (Lene) info su processi e prodotti disponibili — necessarie per lo sviluppo",
       "scadenza": "25 giu 2026"
+    },
+    {
+      "priorita": "alta",
+      "owner": "FC",
+      "testo": "Attesa conferma formale da Tocci (Deloitte) su esclusione Step 5 (upload documento) — seguire up se no risposta entro 27/06",
+      "scadenza": "27 giu 2026"
+    },
+    {
+      "priorita": "alta",
+      "owner": "CB",
+      "testo": "identificationDocumentNumber: verificare campo nel portale MuleSoft (https://eu1.anypoint.mulesoft.com/exchange/portals/lene-srl/b0d340ae-9b55-46c2-809d-c67fd03ccfaf/x-comparator/) e aggiornare implementazione",
+      "scadenza": "01 lug 2026"
+    },
+    {
+      "priorita": "media",
+      "owner": "CB",
+      "testo": "Verificare randomId e URL completo in Credenziali_Comparatori_Innova_Semplice.docx — già disponibile in Drive",
+      "scadenza": "01 lug 2026"
     }
   ],
   "stakeholder": [
@@ -380,6 +414,18 @@
       "ruolo": "Sviluppatore",
       "note": "Dev sul progetto API Lene. Aggiornato su prodotti e processi Lene il 25/06.",
       "tag": "LS"
+    },
+    {
+      "nome": "Tocci Alessandro",
+      "ruolo": "Processi / CRM Lene (Deloitte)",
+      "note": "Referente lato Lene/Deloitte per sourceDetail, liste dati e conferma Step 5. Email: atocci@deloitte.it",
+      "tag": "TA"
+    },
+    {
+      "nome": "Tomasino Giovanni",
+      "ruolo": "Processi / CRM Lene (Deloitte)",
+      "note": "Referente lato Lene/Deloitte per sourceDetail e liste dati. Email: gtomasino@deloitte.it",
+      "tag": "TG"
     }
   ],
   "log": [
@@ -442,6 +488,11 @@
       "data": "25 giu 2026",
       "autore": "Fabrizio Comerci",
       "testo": "Luca Stanziani (dev) aggiornato su dettagli prodotti e processi Lene (4 prodotti, 2 processi)."
+    },
+    {
+      "data": "25 giu 2026",
+      "autore": "Zeno Pannunzio (Lene)",
+      "testo": "Risposta email pre-sviluppo: randomId chiarito (in Credenziali doc). identificationDocumentNumber è campo body POST /lead. sourceDetail e liste dati girate a Tocci/Tomasino (Deloitte). Step 5 probabile esclusione ma attende conferma Tocci."
     }
   ],
   "gantt": [
